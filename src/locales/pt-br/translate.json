@@ -1,0 +1,191 @@
+{
+    "translations": {
+        
+        "navbarMenu" :{
+            "home" : "Home",
+            "about" : "Sobre",
+            "skills" : "Habilidades",
+            "experiences" : "Experiençias",
+            "services" : "Serviços",
+            "portfolio" : "Portfolio",
+            "contact" : "Contacto"
+        },
+        "menuLanguage" :{
+            "home" : "Home",
+            "language" : "Línguas"
+        },
+        "home" : {
+            "hi" : "Olá, Sou",
+            "name" : "Samuel Louis Sampeur",
+            "belief" : "Creio em YESHUA. ",
+            "bibleVerse" : "bible verse"
+        },
+        "about" : {
+            "title" : "Sobre mim",
+            "subTitle" : "Um pouco sobre mim:",
+            "descriptionP1" : "Olá, sou Samuel Louis Sampeur, trabalhei como Garçom/Barman em ",
+            "descriptionP2" : "Além das funções de Bartender, fui frequentemente chamado para atender clientes estrangeiros, principalmente devido à minha facilidade com idiomas e comunicação com as pessoas. Após três anos e meio decidi mudar de profissão e iniciei uma estágio em uma empresa de telecomunicação ",
+            "descriptionP3" : "Aí depois vem a pandemia do COVID-19... Agora formado em engenharia de software e prestes a terminar engenharia da computação na ",
+            "descriptionP4" : "Estou trabalhando como desenvolvedor foolstack em uma empresa de telecomunicações. ",
+            "descriptionP5" : "Estou procurando emprego freelance. Também tenho especialização em web design, design de aplicativos, para poder projetar e construir seu site do zero. Tenho certeza de que você não se arrependerá se quiser trabalhar juntos em seu próximo projeto ou projeto existente, você pode ",
+            "descriptionP6" : "Sou extrovertido, dedicado e de mente aberta. Me relaciono com as pessoas e me adapto às mudanças com facilidade. Acredito que uma pessoa deve trabalhar para desenvolver suas habilidades profissionais e aprender coisas novas o tempo todo ",
+            
+            "descriptionP7" : "Sou apaixonado por jogar xadrez, ",
+            "subTitle2" : "O que faço no meu tempo livre: ",
+            "moreAbout" : "Mais sobre mim: ",
+            "descriptionP8" : "Sou apaixonado por jogar xadrez, caminhar futebol, vôlei, ler alguns livros, sair com alguns amigos, estudar. Também leio a bíblia, mas não apenas no meu tempo livre. ",
+            "hobbies" : "Quais são seus hobbies favoritos? ",
+            "descriptionP9" : "Adoro explorar novas cidades, tirar fotografias ",
+            "descriptionP10" : "trabalho numa equipe eu faço parte, desenvolvemos novos aplicativos e tambem fazer manutenção nos antigos ",
+            "descriptionP11" : "During the warmer months i enjoy traveling to some great downhil mountain biking location or finding a remote lake somewhere new for kayasking. Although the majority of the year you will find me behind a computer screen i am a possionate gamer which has a huge impact on the start on my carreer, but that's a story for anothe time.",
+            "descriptionP12" : "Throughout the year I've worked for places that feel the need to constantly burmount their employees with request and riddiculious timelines. Having been put through some bad experiences in my past. I've also had some great ones thar allowed me to work with some amazing people who have played hey roles in my carrer. I have worked very had to get where I am today, but i'm just as passionate about where my carrer is loading me. The Challenges that I deal with on a day-to-day basts I find meaningful and rewarding. I honestly love what i do and i will do whatever it takes to further my carreer.",
+
+            "bigText1" : "Desenvolvedor Fullstack",
+            "bigText2" : "Design de UI/UX",
+            "bigText3" : "Web Designer e Desenvolvedor",
+            "bigText4" : "Oferecendo um trabalho de qualidade ",
+            "bigText5" : "Sou co-financiador de ",
+            "aboutMeBtn" : "Let's Talk",
+            "aboutMeCv" : "Baixar CV",
+            "college" : "INFNET, Rio de Janeiro ",
+            "aboutMeCity" : "Rio de Janeiro",
+            "sampeurs" : "SAMPEUR'S",
+            "contact" : "Me Contacta",
+            "mundivox" : "MUNDIVOX ",
+            "marriott" : "Marriott Hotel "            
+        },
+        "skills" : {
+            "title" : "Habilidades",
+            "subTitle" : "Minhas habilidades e nível técnico",
+            "frontend" : "Desenvolvedor front-end",
+            "backend" : "Desenvolvedor back-end",
+            "designer" : "Designer",
+            "languages" : "Idiomas",
+            "otherSkills" : "Aprendendo",
+            "newSkills" : "Novas habilidades",
+            "creol" : "Crioulo",
+            "spanish" : "Espanhol",
+            "french" : "Francês",
+            "english" : "Inglês",
+            "portugues" : "Português"
+        },
+        "experiences" : {
+            "title" : "Experiences",
+            "subTitle" : "Experiences",
+            "designer" : "Web designer & developer",
+            "frontend" : "Desenvolvedor front-end",
+            "backend" : "Desenvolvedor back-end",
+            "barman" : "Garçom/Barman"
+
+        },
+        "services" : {
+            "title" : "Services",
+            "subTitle" : "Let's build something great...",
+            "dataAnalytics" : "Data Analytics",
+            "webDesign" : "Web Developper",
+            "uiUxApp" : "UI/UX App design",
+            "uiUxWeb" : "UI/UX Web design",
+            "designer" : "Web designer",
+            "frontend" : "Desenvolvedor front-end",
+            "backend" : "Desenvolvedor back-end",
+            "barman" : "Garçom/Barman"
+        },
+        "testimonial" : {
+            "title" : "Testimonial",
+            "subTitle" : "What people is saying about me",
+
+            "user1Name" : "Alana Tereza Rebeca Campos",
+            "user1Title" : "Copmputer engineer",
+            "user1Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+
+            "user2Name" : "Brenda Larissa Baptista",
+            "user2Title" : "Budget officer",
+            "user2Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+
+            "user3Name" : "Antonio Martin Theo Monteiro",
+            "user3Title" : "Die maker",
+            "user3Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+            
+            "user4Name" : "Kaique Felipe Almada",
+            "user4Title" : "Economist",
+            "user4Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+            
+            "user5Name" : "Sérgio Emanuel Nogueira",
+            "user5Title" : "Sewing machine operator",
+            "user5Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+
+            "user6Name" : "Alícia Pietra Lima",
+            "user6Title" : "Plant scientist",
+            "user6Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+            
+            "user7Name" : "Valentina Sophie Drumond",
+            "user7Title" : "Software engineer",
+            "user7Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct."
+
+        },
+        "portfolio" : {
+            "title" : "Portfolio",
+            "subTitle" : "Portfolio",
+            "csharpProject" : "Projeto em C-Sharp",
+            "csharpProjectDes" : "Projeto de microserviços em C-Sharp... ",
+            "goLangProject" : "Projeto em GoLang",
+            "goLangProjectDes" : "Projeto de microserviços em GoLang...",
+            "pythonProject" : "Projeto IOT em Python",
+            "pythonProjectDes" : "Projeto IOT e data science usando linguagem Python.",
+            "androidProject" : "Projeto em Android",
+            "androidProjectDes" : "Projeto de um app de teremoto em Android usando linguagem Java.",
+            "fronEndProject" : "Projeto de Front-end",
+            "fronEndProjectDes" : "Projeto de Front-end usando HTML, CSS, React e algumas bibliotecas como boostrap...",
+            "prototypingProject" : "Projeto prototipagem",
+            "prototypingProjectDes" : "Projeto prototipagem de um site e um aplicativo..."
+
+        },
+        "sayings" : {
+            "title" : "Sayings",
+            "writer1" : "Fiverr Clint",
+            "sayings1" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer2" : "Fiverr Clint",
+            "sayings2" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer3" : "Fiverr Clint",
+            "saying3" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer4" : "Fiverr Clint",
+            "saying4" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer5" : "Fiverr Clint",
+            "saying5" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer6" : "Fiverr Clint",
+            "saying6" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing."
+        },
+        "contact" : {
+            "title" : "Contato",
+            "description" : "Descrição contato",
+            "description1" : "Vamos falar sobre o seu site. Envie-me uma mensagem e entrarei em contato com você em um dia útil.",
+            "description2" : "Vamos trabalhar para criar seu projeto do zero ou repará-lo, isso levará seu cérebro de sem graça a...",
+            "description3" : "Estou disponível para trabalho autônomo. Conecte-se comigo por telefone: +552198772-2151 ou e-mail: sampeur4life1@gmail.com",
+            "contactEmail" : "Envie uma mensagem",
+            "contactWhatsapp" : "Envie uma mensagem no Whatsapp",
+            "requiredMessenger" : "Envie uma mensagem no Messenger"
+        },
+        "contactForm" : {
+            "title" : "Entre em contato!",
+            "selectedOption" : "-- Por favor, escolha uma opção --",
+            "option1" : "Enviar um feedback",
+            "option2" : "Enviar currículo",
+            "option3" : "Outro",
+            "option4" : "Outro",
+            "placeholderName" : "Nome",
+            "placeholderSurname" : "Sobrenome",
+            "placeholderEmail" : "E-mail",
+            "placeholderPhone" : "Telefone",
+            "placeholderMessage" : "Mensagem",
+            "terms" : "Li e concordo com os ",
+            "conditions" : "termos e condições.",
+            "requiredField" : "Campo obrigatório",
+            "sumit" : "Sumit",
+            "reset" : "Reset",
+            "sendEmail" : "Enviar um email"
+        },
+        "footer" : {
+            "description" : "description rodapé"
+        }
+    }
+}

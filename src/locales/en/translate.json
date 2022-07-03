@@ -1,0 +1,124 @@
+{
+    "translations": {
+        
+        "navbarMenu" :{
+            "home" : "Home",
+            "about" : "About",
+            "skills" : "Skills",
+            "experiences" : "Experiences",
+            "services" : "Services",
+            "portfolio" : "Portfolio",
+            "contact" : "Contact"
+        },
+        "menuLanguage" :{
+            "home" : "Home",
+            "language" : "Languages"
+        },
+        "home" : {
+            "hi" : "Hi, I'm",
+            "name" : "Samuel Louis Sampeur",
+            "belief" : "believe in YESHUA. ",
+            "bibleVerse" : "bible verse"
+        },
+        "about" : {
+            "title" : "About me",
+            "subTitle" : "A little about myself:",
+            "descriptionP1" : "Hi, I am Samuel Louis Sampeur, I worked as a Waiter/Bartender at ",
+            "descriptionP2" : "In addition to Bartending duties, I was frequently called upon to serve foreign customers, mainly due to my facility with languages and communicating with people. After three years and a half I decided to change my occupation so I started an IT internship at a telecommunications company",
+            "descriptionP3" : "then come the COVID-19 pandemic ... Now graduated as a software engineering and about to finish at computer engineering at ",
+            "descriptionP4" : "I'm working as a foolstack developer in a telecomunication company. ",
+            "descriptionP5" : "I am looking for freelance job. I also have specialization in web design, app design, so I can design and build your website from scratch. I'm certain that you won't regret if you'd like to work together on your next or existing project, you can ",
+            "descriptionP6" : "I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time ",
+            
+            "descriptionP7" : "I'm passionate in playing chess, ",
+            "subTitle2" : "What I do on my free time: ",
+            "moreAbout" : "More About Me",
+            "descriptionP8" : "I'm passionate in playing chess, hiking soccer, volley, read some books, hang out with some friends, study. I also read the bible, but not only in my free time.",
+            "hobbies" : " What are your favorite hobbies?",
+            "descriptionP9" : "I love to explore new cities, take photographs",
+           
+            "bigText1" : "Fullstack Developer",
+            "bigText2" : "UI / UX design",
+            "bigText3" : "Web Designer & Developer",
+            "bigText4" : "Delivering Quality Work",
+            "bigText5" : "I'm the cofunder of ",
+            "aboutMeBtn" : "Let's Talk",
+            "aboutMeCv" : "Download CV",
+            "college" : "INFNET, Rio de Janeiro ",
+            "aboutMeCity" : "Rio de Janeiro",
+            "sampeurs" : "SAMPEUR'S",
+            "contact" : "Cantact me",
+            "mundivox" : "MUNDIVOX ",
+            "marriott" : "Marriott Hotel "
+        },
+        "skills" : {
+            "title" : "Skills",
+            "subTitle" : "My skills & technical level",
+            "frontend" : "Frontend deleloper",
+            "backend" : "Backend deleloper",
+            "designer" : "Designer",
+            "languages" : "Languages",
+            "otherSkills" : "What I'm learning",
+            "newSkills" : "New Skills",
+            "creol" : "Creol",
+            "spanish" : "Spanish",
+            "french" : "French",
+            "english" : "English",
+            "portugues" : "Portugues"
+        },
+        "experiences" : {
+            "description" : " description experiences"
+        },
+        "services" : {
+            "description" : " description services"
+        },
+        "portfolio" : {
+            "title" : "Portfolio",
+            "subTitle" : "Portfolio",
+            "csharpProject" : "C-Sharp Project",
+             "csharpProjectDes" : "C-Sharp Microservices Project...",
+             "goLangProject" : "GoLang Project",
+             "goLangProjectDes" : "A microservices project in GoLang...",
+             "pythonProject" : "Python IoT Project",
+             "pythonProjectDes" : "IOT and data science project using Python language.",
+             "androidProject" : "Android Project",
+             "androidProjectDes" : "Project of earthquake app on Android using Java language.",
+             "frontEndProject" : "Front End Project",
+             "fronEndProjectDes" : "Frontend project using HTML, CSS, React and some libraries like boostrap...",
+             "prototypingProject" : "Prototyping Project",
+             "prototypingProjectDes" : "Prototyping a website and an application project..."
+        },
+        "contact" : {
+            "title" : "Contact me",
+            "description" : "I'd like to hear from you ",
+            "description1" : "Let't talk about your website. send me a message and I will be in touch with you one business day.",
+            "description2" : "Let's work to create your project from scrat or repair it, that will take your braind from bland to...",
+            "description3" : "I am available for freelance work. Connect with me via phone: +552198772-2151 or email: sampeur4life1@gmail.com",
+            "contactEmail" : "Send a Message",
+            "contactWhatsapp" : "Send a Message on Whatsapp",
+            "requiredMessenger" : "Send a Message on Messenger"
+        },
+        "contactForm" : {
+            "title" : "Get in touch!",
+            "selectedOption" : "-- Please choose an option --",
+            "option1" : "Send a Feedback",
+            "option2" : "Send Resume",
+            "option3" : "Other",
+            "option4" : "Other",
+            "placeholderName" : "Name",
+            "placeholderSurname" : "Surname",
+            "placeholderEmail" : "Email",
+            "placeholderPhone" : "Phone",
+            "placeholderMessage" : "Message",
+            "terms" : "I have read and agreed with the ",
+            "conditions" : "terms and conditions.",
+            "requiredField" : "Required Field",
+            "sumit" : "Sumit",
+            "reset" : "Reset",
+            "sendEmail" : "Send an Email"
+        },
+        "footer" : {
+            "description" : " description footer"
+        }     
+    }
+}

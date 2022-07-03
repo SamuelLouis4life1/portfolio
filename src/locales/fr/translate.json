@@ -1,0 +1,124 @@
+{
+    "translations": {
+        
+        "navbarMenu" :{
+            "home" : "Home",
+            "about" : "À Propos",
+            "skills" : "Compétences",
+            "experiences" : "Expériences",
+            "services" : "Services",
+            "portfolio" : "Portfolio",
+            "contact" : "Contact"
+        },
+        "menuLanguage" :{
+            "home" : "Home",
+            "language" : "Langues"
+        },
+        "home" : {
+            "hi" : "Salut, Je suis",
+            "name" : "Louis Samuel Sampeur",
+            "belief" : "Je crois en Dieu YESHUA ! ",
+            "bibleVerse" : "Verset Biblique"
+        },
+        "about" : {
+            "title" : "À propos de moi",
+            "subTitle" : "Un peu sur moi :",
+            "descriptionP1" : "Bonjour, je suis Samuel Louis Sampeur, j'ai travaillé comme Serveur/Barman chez ",
+            "descriptionP2" : "En plus de mes fonctions de Barman, j'étais fréquemment appelé à servir des clients étrangers, principalement en raison de ma facilité avec les langues et la communication avec les gens. Au bout de trois ans et demi, j'ai décidé de changer de métier, j'ai donc commencé un IT stage dans une entreprise de télécommunication ",
+            "descriptionP3" : "puis vient la pandémie de COVID-19 ... Maintenant diplômé en génie logiciel et sur le point de terminer en génie informatique à ",
+            "descriptionP4" : "Je travaille en tant que développeur Foolstack dans une entreprise de télécommunication. ",
+            "descriptionP5" : "Je suis à la recherche d'un emploi indépendant. J'ai également une spécialisation en conception de sites Web, en conception d'applications, afin que je puisse concevoir et créer votre site Web à partir de zéro. Je suis certain que vous ne regretterez pas si vous souhaitez travailler ensemble sur votre projet à venir ou existant, vous pouvez ",
+            "descriptionP6" : "Je suis extravertie, dévouée et ouverte d'esprit. Je me fais comprendre et je m'adapte facilement aux changements. Je crois qu'une personne devrait travailler à développer ses compétences professionnelles et apprendre de nouvelles choses tout le temps ",
+            
+            "descriptionP7" : "Je suis un passionné de jeu d'échecs ",
+            "subTitle2" : "Ce que je fais pendant mon temps libre : ",
+            "moreAbout" : "En savoir plus sur moi ",
+            "descriptionP8" : "Je suis passionné de jouer aux échecs, de faire du foot, du volley, de lire des livres, de sortir avec des amis, d'étudier. Je lis aussi la Bible, mais pas seulement pendant mon temps libre.",
+            "hobbies" : " Quels sont tes hobbies préférés ?",
+            "descriptionP9" : "J'adore explorer de nouvelles villes, prendre des photos",
+           
+            "bigText1" : "Développeur Fullstack",
+            "bigText2" : "Conception UI/UX",
+            "bigText3" : "Concepteur & Développeur Web",
+            "bigText4" : "Fournir un travail de qualité",
+            "bigText5" : "Je suis le cofondateur de ",
+            "aboutMeBtn" : "Parlons-en",
+            "aboutMeCv" : "Télécharger CV",
+            "collège" : "INFNET, Rio de Janeiro",
+            "aboutMeCity" : "Rio de Janeiro",
+            "sampeurs" : "SAMPEUR'S",
+            "contact" : "Cantactez-moi",
+            "mundivox" : "MUNDIVOX ",
+            "marriott" : "Hôtel Marriott "
+        },
+        "skills" : {
+            "title" : "Compétences",
+            "subTitle" : "Mes compétences & mon niveau technique",
+            "frontend" : "Développeur frontend",
+            "backend" : "Développeur back-end",
+            "designer" : "Designer",
+            "languages" : "Langues",
+            "otherSkills" : "Entrain d'appendre",
+            "newSkills" : "Nouvelles compétences",
+            "creol" : "Créole",
+            "spanish" : "Espagnol",
+            "french" : "Français",
+            "english" : "Anglais",
+            "portugues" : "Portugais"
+        },
+        "experiences" : {
+            "description" : "description experiences fr"
+        },
+        "services" : {
+            "description" : "description services fr"
+        },
+        "portfolio" : {
+            "title" : "Portfolio",
+            "subTitle" : "Portfolio",
+            "csharpProject" : "Projet C-Sharp",
+            "csharpProjectDes" : "Projet de microservices C-Sharp...",
+            "goLangProject" : "Projet GoLang",
+            "goLangProjectDes" : "Projet de microservices dans GoLang...",
+            "pythonProject" : "Projet Python IdO",
+            "pythonProjectDes" : "Projet IOT et science des données utilisant le langage Python.",
+            "androidProject" : "Projet Android",
+            "androidProjectDes" : "Projet d'une application de thermostat sur Android utilisant le langage Java.",
+            "frontEndProject" : "Projet Front-End",
+            "fronEndProjectDes" : "Projet frontend utilisant HTML, CSS, React et quelques librairies comme boostrap...",
+            "prototypingProject" : "Prototypage de projet",
+            "prototypingProjectDes" : "Prototypage d'un site web et d'un projet d'application..."
+        },
+        "contact" : {
+            "contactText" : "Contactez moi",
+            "description" : "description contact fr",
+            "description1" : "On peut parler de votre site Web. Envoyez-moi un message et je vous contacterai un jour ouvrable.",
+            "description2" : "Travaillons à créer votre projet à partir de zéro ou à le réparer, cela fera passer votre cerveau de fade à...",
+            "description3" : "Je suis disponible pour un travail indépendant. Contactez-moi par téléphone : +552198772-2151 ou par e-mail : sampeur4life1@gmail.com",
+            "contactEmail" : "Envoyer un message",
+            "contactWhatsapp" : "Envoyer un message sur Whatsapp",
+            "requiredMessenger" : "Envoyer un message sur Messenger"
+        },
+        "contactForm" : {
+            "title" : "Contactez-moi!",
+            "selectedOption" : "-- Veuillez choisir une option --",
+            "option1" : "Envoyer un commentaire",
+            "option2" : "Envoyer CV",
+            "option3" : "Autre",
+            "option4" : "Autre",
+            "placeholderName" : "Nom",
+            "placeholderSurname" : "Nom de famille",
+            "placeholderEmail" : "Email",
+            "placeholderPhone" : "Téléphone",
+            "placeholderMessage" : "Message",
+            "terms" : "J'ai lu et j'accepte les ",
+            "conditions" : "termes et conditions.",
+            "requiredField" : "Champ obligatoire",
+            "sumit" : "Sumit",
+            "reset" : "Reset",
+            "sendEmail" : "Envoyer un e-mail"
+        },
+        "footer" : {
+            "description" : "description footer fr"
+        }      
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "translations": {
+        
+        "navbarMenu" :{
+            "home" : "Home",
+            "about" : "À Propos",
+            "skills" : "Competans",
+            "experiences" : "Experyans",
+            "services" : "Sevis",
+            "portfolio" : "Portfolio",
+            "contact" : "Contact"
+        },
+        "menuLanguage" :{
+            "home" : "Home",
+            "language" : "Lang"
+        },
+        "home" : {
+            "hi" : "Sali, Mwen se ",
+            "name" : "Louis Samuel Sampeur",
+            "belief" : "Mwen kwe nan YESHUA ! ",
+            "bibleVerse" : "Verse Biblik"
+        },
+        "about" : {
+            "title" : "Sou mwen",
+            "subTitle" : "Yon ti kras sou tèt mwen:",
+            "descriptionP1" : "Bonjou, mwen se Samuel Louis Sampeur, mwen te travay kòm Sèvè/Barman nan ",
+            "descriptionP2" : "Anplis devwa Bartending, mwen te souvan rele pou sèvi kliyan etranje, sitou akòz etablisman mwen an ak lang ak kominike ak moun. Apre twazan edmi mwen deside chanje okipasyon mwen an konsa mwen te kòmanse yon IT. estaj nan yon konpayi telekominikasyon",
+            "descriptionP3" : "Lè sa a, vini pandemi COVID-19 ... Kounye a gradye kòm yon jeni lojisyèl ak sou fini nan jeni òdinatè nan ",
+            "descriptionP4" : "Mwen ap travay kòm yon devlopè foolstack nan yon konpayi telekominikasyon. ",
+            "descriptionP5" : "Mwen ap chèche travay endependan. Mwen gen yon espesyalizasyon tou nan konsepsyon sit entènèt, konsepsyon app, konsa mwen ka konsepsyon ak bati sit entènèt ou a nan grafouyen. Mwen sèten ke ou pa pral regrèt si ou ta renmen. travay ansanm sou pwochen pwojè ou oswa ki deja egziste, ou kapab ",
+            "descriptionP6" : "Mwen sòtan, devwe, ak ouvè-espri. Mwen jwenn moun ak ajiste nan chanjman ak fasilite. Mwen kwè ke yon moun ta dwe travay sou devlope konpetans pwofesyonèl yo ak aprann nouvo bagay tout tan ",
+            
+            "descriptionP7" : "Mwen pasyone jwe echèk, ",
+            "subTitle2" : "Sa mwen fè nan tan lib mwen an: ",
+            "moreAbout" : "Plis sou mwen",
+            "descriptionP8" : "Mwen pasyone nan jwe echèk, randone foutbòl, vole, li kèk liv, pase ak kèk zanmi, etidye. Mwen menm mwen li Bib la, men se pa sèlman nan tan lib mwen.",
+            "hobbies" : "Ki sa ki pastan ou pi renmen yo?",
+            "descriptionP9" : "Mwen renmen eksplore nouvo vil, pran foto",
+           
+            "bigText1" : "Devlopè Fullstack",
+            "bigText2" : "Konsepsyon UI / UX",
+            "bigText3" : "Web Designer & Devlopè",
+            "bigText4" : "Livre bon kalite travay",
+            "bigText5" : "Mwen se ko-finansman ",
+            "aboutMeBtn" : "Ann Pale",
+            "aboutMeCv" : "Telechaje CV",
+            "college" : "INFNET, Rio de Janeiro ",
+            "aboutMeCity" : "Rio de Janeiro",
+            "sampeurs" : "SAMPEUR'S",
+            "contact" : "Kontakte m",
+            "mundivox" : "MUNDIVOX ",
+            "marriott" : "Marriott Hotel "
+        },
+        "skills" : {
+            "title" : "Konpetans",
+            "subTitle" : "Konpetans ak nivo teknik mwen",
+            "frontend" : "Développè frontend",
+            "backend" : "Développè backend",
+            "designer" : "Designer",
+            "languages" : "Lang",
+            "otherSkills" : "Sa m'ap aprann",
+            "newSkills" : "Nouvo Konpetans",
+            "creol" : "Kreyòl",
+            "spanish" : "Panyòl",
+            "franse" : "Franse",
+            "english" : "Angle",
+            "portugues" : "pòtigè"
+        },
+        "experiences" : {
+            "description" : "deskripsyon experiences"
+        },
+        "services" : {
+            "description" : "deskripsyon services"
+        },
+        "portfolio" : {
+            "title" : "Portfolio",
+            "subTitle" : "Portfolio",
+            "csharpProject" : "Pwojè C-Sharp",
+            "csharpProjectDes" : "C-Sharp Microservices Project...",
+            "goLangProject" : "Pwojè GoLang",
+            "goLangProjectDes" : "Pwojè mikwosèvis nan GoLang...",
+            "pythonProject" : "Python IoT Pwojè",
+            "pythonProjectDes" : "Iot ak pwojè syans done lè l sèvi avèk lang Python.",
+            "androidProject" : "Pwojè Android",
+            "androidProjectDes" : "Pwojè yon aplikasyon tèmostat sou Android lè l sèvi avèk lang Java.",
+            "frontEndProject" : "Pwojè Front End",
+            "fronEndProjectDes" : "Pwojè frontend lè l sèvi avèk HTML, CSS, React ak kèk bibliyotèk tankou boostrap...",
+            "prototypingProject" : "Pwojè Pwototip",
+            "prototypingProjectDes" : "Pwototip yon sit entènèt ak yon pwojè aplikasyon..."
+        },
+        "contact" : {
+            "title" : "Kontakte'm",
+            "description" : "deskripsyon contak",
+            "description1" : "Nou kapab pale de sit entènèt ou a. voye yon mesaj pou mwen epi mwen pral kontakte ou yon jou ouvrab.",
+            "description2" : "Ann travay pou kreye pwojè ou a nan grafouyen oswa repare li, ki pral pran sèvo ou soti nan fab nan...",
+            "description3" : "Mwen disponib pou travay endependan. Konekte avè m 'pa telefòn: +552198772-2151 oswa imèl: sampeur4life1@gmail.com",
+            "contactEmail" : "Voye yon Mesaj",
+            "contactWhatsapp" : "Voye yon Mesaj sou Whatsapp",
+            "requiredMessenger" : "Voye yon mesaj sou Messenger"
+        },
+        "contactForm" : {
+            "title" : "Kontakte m",
+            "selectedOption" : "-- Tanpri chwazi yon opsyon --",
+            "option1" : "Voye yon Feedback",
+            "option2" : "Voye rezime",
+            "option3" : "Lòt",
+            "option4" : "Other",
+            "placeholderName" : "Non",
+            "placeholderSurname" : "Ti non",
+            "placeholderEmail" : "Imèl",
+            "placeholderPhone" : "Telefòn",
+            "placeholderMessage" : "Mesaj",
+            "terms" : "Mwen te li epi mwen dakò ak ",
+            "conditions" : "tèm e kondisyon",
+            "requiredField" : "Kan obligatwa",
+            "sumit" : "Some",
+            "reset" : "Reset",
+            "sendEmail" : "Voye yon Imèl"
+
+        },
+        "footer" : {
+            "description" : "deskripsyon pye"
+        }       
+    }
+}

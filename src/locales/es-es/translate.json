@@ -1,0 +1,126 @@
+{
+    "translations": {
+        
+        "navbarMenu" :{
+            "home" : "Home",
+            "about" : "Sobre",
+            "skills" : "Habilidades",
+            "experiences" : "Experiencias",
+            "services" : "Servicios",
+            "portfolio" : "Portfolio",
+            "contact" : "Contáctame"
+        },
+        "menuLanguage" :{
+            "home" : "Home",
+            "language" : "Idiomas"
+        },
+        "home" : {
+            "hi" : "Olá, Yo soy",
+            "name" : "Samuel Louis Sampeur",
+            "belief" : "Creio em YESHUA. ",
+            "bibleVerse" : "bible verse"
+        },
+        "about" : {
+            "title": "Acerca de mí",
+            "subTitle" : "Un poco sobre mí:",
+            "descriptionP1" : "Hola, soy Samuel Louis Sampeur, trabajé como mesero/cantinero en ",
+            "descriptionP2": "Además de las tareas de barman, me llamaban con frecuencia para atender a clientes extranjeros, principalmente debido a mi facilidad con los idiomas y la comunicación con la gente. Después de tres años y medio, decidí cambiar mi ocupación, así que comencé una TI prácticas en una empresa de telecomunicaciones",
+            "descriptionP3" : "luego viene la pandemia de COVID-19... Ahora se graduó como ingeniero de software y está a punto de terminar en ingeniería informática en ",
+            "descriptionP4": "Estoy trabajando como desarrollador tonto en una empresa de telecomunicacione.",
+            "descriptionP5" : "Estoy buscando trabajo freelance. También tengo especialización en diseño web, diseño de aplicaciones, así que puedo diseñar y construir tu sitio web desde cero. Estoy seguro de que no te arrepentirás si quieres trabajar juntos en su proyecto siguiente o existente, puede ",
+            "descriptionP6" : "Soy extrovertido, dedicado y de mente abierta. Me comunico con las personas y me adapto a los cambios con facilidad. Creo que una persona debe trabajar en el desarrollo de sus habilidades profesionales y aprender cosas nuevas todo el tiempo ",
+            
+            "descriptionP7": "Me apasiona jugar al ajedrez",
+            "subTitle2" : "Lo que hago en mi tiempo libre: ",
+            "moreAbout" : "Más sobre mí",
+            "descriptionP8" : "Me apasiona jugar al ajedrez, hacer senderismo, fútbol, voleibol, leer algunos libros, salir con algunos amigos, estudiar. También leo la Biblia, pero no solo en mi tiempo libre.",
+            "hobbies": "¿Cuáles son tus pasatiempos favoritos?",
+            "descriptionP9" : "Me encanta explorar nuevas ciudades, tomar fotografías",
+           
+            "bigText1": "Desarrollador de pila completa",
+            "bigText2": "Diseño de interfaz de usuario/UX",
+            "bigText3" : "Diseñador y desarrollador web",
+            "bigText4" : "Entregando trabajo de calidad",
+            "bigText5": "Soy el cofinanciador de ",
+            "aboutMeBtn": "Hablemos",
+            "aboutMeCv" : "Descargar CV",
+            "universidad" : "INFNET, Río de Janeiro ",
+            "aboutMeCity" : "Río de Janeiro",
+            "sampeurs" : "SAMPEUR'S",
+            "contacto" : "Contáctame",
+            "mundivox" : "MUNDIVOX",
+            "Marriott": "Hotel Marriott"
+        },
+        "skills" : {
+            "title" : "Habilidades",
+            "subTitle" : "Mis habilidades y nivel técnico",
+            "frontend" : "Desenvolvedor front-end",
+            "backend" : "Desenvolvedor back-end",
+            "designer" : "Designer",
+            "languages" : "Idiomas",
+            "otherSkills" : "Estoy aprendiendo",
+            "newSkills" : "Nuevas Habilidades",
+            "creol" : "Criollo",
+            "spanish" : "Español",
+            "french" : "Francés",
+            "english" : "Inglés",
+            "portugues" : "Portugueses"
+        },
+        "experiences" : {
+            "description" : " Descrição experiences es"
+        },
+        "services" : {
+            "title" : "Portfolio",
+            "subTitle" : "Portfolio",
+            "csharpProject" : "Proyecto C-Sharp",
+            "csharpProjectDes" : "Proyecto de microservicios de C-Sharp...",
+            "goLangProject" : "Proyecto GoLang",
+            "goLangProjectDes": "Proyecto de microservicios en GoLang...",
+            "pythonProject" : "Proyecto Python IoT",
+            "pythonProjectDes": "IOT y proyecto de ciencia de datos usando lenguaje Python.",
+            "androidProject" : "Proyecto Android",
+            "androidProjectDes": "Proyecto de una aplicación de termostato en Android usando lenguaje Java.",
+            "frontEndProject" : "Proyecto Front End",
+            "fronEndProjectDes": "Proyecto frontend usando HTML, CSS, React y algunas bibliotecas como boostrap...",
+            "prototypingProject" : "Proyecto de creación de prototipos",
+            "prototypingProjectDes": "Prototipando un sitio web y un proyecto de aplicación..."
+        },
+        "portfolio" : {
+            "description" : " Descrição portfolio es"
+        },
+        "contact" : {
+            "title" : "Contácta me",
+            "description" : " Descrição contact es",
+            "description1" : "Hablemos de su sitio web. envíame un mensaje y me pondré en contacto contigo un día hábil.",
+            "description2" : "Trabajemos para crear tu proyecto desde cero o repararlo, eso llevará tu cerebro de soso a...",
+            "description3" : "Estoy disponible para el trabajo independiente. Conéctese conmigo por teléfono: +552198772-2151 o correo electrónico: sampeur4life1@gmail.com",
+            "contactEmail" : "Enviar un mensaje",
+            "contactWhatsapp" : "Enviar un mensaje en Whatsapp",
+            "requiredMessenger" : "Enviar un mensaje en Messenger"
+        },
+        "contactForm" : {
+            "title" : "¡Ponte en contacto!",
+            "selectedOption" : "-- Elija una opción --",
+            "option1" : "Enviar un comentario",
+            "option2" : "Enviar currículum",
+            "option3" : "Otro",
+            "option4" : "Otro",
+            "placeholderName" : "Nombre",
+            "placeholderSurname" : "Apellido",
+            "placeholderEmail" : "Correo electrónico",
+            "placeholderPhone" : "Teléfono",
+            "placeholderMessage" : "Mensaje",
+            "terms" : "He leído y estoy de acuerdo con los ",
+            "conditions" : "términos y condiciones.",
+            "requiredField" : "Campo Requerido",
+            "sumit" : "Sumito",
+            "reset" : "Restablecer",
+            "sendEmail" : "Enviar un correo electrónico"
+        },
+        "footer" : {
+            "description" : " Descrição footer es"
+        }       
+       
+    }
+
+}
