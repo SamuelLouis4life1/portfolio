@@ -1,0 +1,18 @@
+.social_buttons a {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.social_buttons a:hover {
+    opacity: 1 !important;
+    color: #f9b03e;
+    font-size: 30px;
+}
+
+@media (max-width:1024px)
+{
+    .social_buttons a {
+        margin: 10px;
+        font-size: 20px;
+    }
+}
