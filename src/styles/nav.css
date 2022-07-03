@@ -1,0 +1,45 @@
+.navbar {
+    z-index: 9999;
+    color: transparent;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    transition: 0.8s ease-in-out;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.menuItem {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 5rem;
+}
+
+.menuItem:hover {
+    color: #fcf0f0;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar navbarDarkMode {
+    align-items: end;
+}
+
+.dropdown-item {
+    font-size: 20px;
+    width: max-content;
+    padding: 0 20px;
+}
+
+.show {
+    display: grid !important;
+}
+
+.dropdown-menu {
+    background-color: var(--background-color);
+}
