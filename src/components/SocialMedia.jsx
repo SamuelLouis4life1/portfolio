@@ -1,16 +1,13 @@
 import React from "react";
 import "../styles/socialMidia.css";
 
+export function SocialMidiaIcon(props) {
+    const { linkSocialMidia, icon } = props;
 
-export function SocialMidia() {
     return (
         <div className="social_buttons">
-            <a href=""><i className="fa fa-instagram"></i></a>
-            <a href=""><i className="fa fa-facebook"></i></a>
-            <a href=""><i className="fa fa-behance"></i></a>
-            <a href=""><i className="fa fa-dribbble"></i></a>
-            <a href=""><i className="fa fa-twitter"></i></a>
+            <a href={`${linkSocialMidia}`} target="_blank" rel="noopener noreferrer">{React.createElement(icon, { width: 12, height: 12, color: '#000' })}</a>
         </div>
     )
 }
-export default SocialMidia;
+export default SocialMidiaIcon;

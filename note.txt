@@ -1,3 +1,31 @@
 1) https://reactrouter.com/docs/en/v6/getting-started/installation
 
-2)
+2)  navbar
+    https://codesandbox.io/s/responsive-nav-bar-kztfy
+    https://codesandbox.io/s/qp7o7
+    https://fireship.io/lessons/css-responsive-icon-navbar/
+
+3) Button
+    https://hgleyder.github.io/react-animated-button/#animatedbutton
+    https://www.npmjs.com/package/react-animated-buttons
+    https://webdeasy.de/en/top-css-buttons-en/
+
+4)  material ui
+    https://mui.com/material-ui/react-button/
+
+
+antes, não pensei que existia anjos na terra, mas qdo te ver e começamos a falar percebi q tava engano pq tem sim, anjos na terra.
+aí disse para me vou querer um anjo para me... mas enfim... 
+
+feliz aniversario,
+
+to te desejando somente 3 coisas que englobam muitas coisas
+
+1) saude e 
+
+2)  objetivo
+    disciplina
+    determinaçao, assim vc consegue realizar qualquer sonho seu
+
+3 senso de disernimento para poder fazer bom escolhas na vida includive de poder escolher alguém bom na vida,
+se for um anjo como vc é, melhor ainda... 
