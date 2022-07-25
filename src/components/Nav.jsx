@@ -1,11 +1,14 @@
 import React from "react";
 import "../styles/nav.css";
 import "../styles/flag-icons.css";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 import { BrowserRouter as Link } from "react-router-dom";
-// import DarkMode from "./DarkMode";
-
+import DarkMode from "./darkMode/DarkMode";
+import { FaBitbucket, FaCog, FaHome } from "react-icons/fa";
+import imgLogo from "../images/logo.png"
+import { MdWork, MdDesignServices, MdContactMail } from "react-icons/md";
+import { GiSkills } from "react-icons/gi";
 
 class NavbarMenu extends React.Component {
   state = {
@@ -57,95 +60,77 @@ class NavbarMenu extends React.Component {
             paddingBotton: 0,
           }}
         >
-          <Container style={{}}>
-            <Navbar.Brand>
-              <a href="#">
-                <img
-                  className="img_logo_navbar"
-                  src="/imgs/uploads/logo.png"
-                  alt=""
-                />
-              </a>
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <a href="#home" className="menuItem">
-                  {t("navbarMenu.home")}
-                </a>
-                <a href="#about" className="menuItem">
-                  {t("navbarMenu.about")}
-                </a>
-                <a href="#skills" className="menuItem">
-                  {t("navbarMenu.skills")}
-                </a>
-                <a href="#experiences" className="menuItem">
-                  {t("navbarMenu.experiences")}
-                </a>
-                <a href="#services" className="menuItem">
-                  {t("navbarMenu.services")}
-                </a>
-                <a href="#portfolio" className="menuItem">
-                  {t("navbarMenu.portfolio")}
-                </a>
-                <a href="#contact" className="menuItem">
-                  {t("navbarMenu.contact")}
-                </a>
-              </Nav>
+          <Navbar.Brand className="small-device small-device-top">
+            <a href="/">
+              <img
+                className="img_logo_navbar"
+                src={imgLogo}
+                alt="image logo sampeur"
+              />
+            </a>
+          </Navbar.Brand>
 
-              <Nav>
-                <NavDropdown
-                  title={t("menuLanguage.language")}
-                  id="collasible-nav-dropdown"
+          <Nav className="me-auto small-device-bottom">
+            <a href="/" className="menuItem hide-small-screen"> <FaHome /> <span className="link-text"><p>{t("navbarMenu.home")}</p></span></a>
+            <a href="#about" className="menuItem"> <FaCog /> <span className="link-text"><p>{t("navbarMenu.about")}</p></span></a>
+            <a href="#skills" className="menuItem"> <GiSkills /> <span className="link-text"><p>{t("navbarMenu.skills")}</p></span></a>
+            <a href="#experiences" className="menuItem"> <FaBitbucket /> <span className="link-text"><p>{t("navbarMenu.experiences")}</p></span></a>
+            <a href="#services" className="menuItem"> <MdWork /> <span className="link-text"><p>{t("navbarMenu.services")}</p></span></a>
+            <a href="#portfolio" className="menuItem"> <MdDesignServices /> <span className="link-text"><p>{t("navbarMenu.portfolio")}</p></span></a>
+            <a href="#contact" className="menuItem"> <MdContactMail /> <span className="link-text"><p>{t("navbarMenu.contact")}</p></span></a>
+          </Nav>
+
+          <div className="lang-toggle-theme">
+            <Nav className="small-device">
+              <NavDropdown
+                title={t("menuLanguage.language")}
+                id="collasible-nav-dropdown"
+              >
+                <NavDropdown.Item
+                  href="#"
+                  onClick={() => {
+                    this.onLanguageHandle("ptbr");
+                  }}
                 >
-                  <NavDropdown.Item
-                    href="#"
-                    onClick={() => {
-                      this.onLanguageHandle("ptbr");
-                    }}
-                  >
-                    <span className="flag-icon flag-icon-br"></span> Brasil
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="#"
-                    onClick={() => {
-                      this.onLanguageHandle("en");
-                    }}
-                  >
-                    <span className="flag-icon flag-icon-us"></span> United
-                    States
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="#"
-                    onClick={() => {
-                      this.onLanguageHandle("fr");
-                    }}
-                  >
-                    <span className="flag-icon flag-icon-fr"></span> France
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="#"
-                    onClick={() => {
-                      this.onLanguageHandle("es");
-                    }}
-                  >
-                    <span className="flag-icon flag-icon-es"></span>Español
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href="#"
-                    onClick={() => {
-                      this.onLanguageHandle("ht");
-                    }}
-                  >
-                    <span className="flag-icon flag-icon-ht"></span> Haiti
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
+                  <span className="flag-icon flag-icon-br"></span> Portugues
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="#"
+                  onClick={() => {
+                    this.onLanguageHandle("en");
+                  }}
+                >
+                  <span className="flag-icon flag-icon-us"></span> English
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="#"
+                  onClick={() => {
+                    this.onLanguageHandle("fr");
+                  }}
+                >
+                  <span className="flag-icon flag-icon-fr"></span> Francais
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="#"
+                  onClick={() => {
+                    this.onLanguageHandle("es");
+                  }}
+                >
+                  <span className="flag-icon flag-icon-es"></span> Español
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="#"
+                  onClick={() => {
+                    this.onLanguageHandle("ht");
+                  }}
+                >
+                  <span className="flag-icon flag-icon-ht"></span> Criolo
+                </NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
 
-              {/* <DarkMode /> */}
-
-            </Navbar.Collapse>
-          </Container>
+              <DarkMode className="small-device" />
+          </div>
         </Navbar>
       </>
     );
