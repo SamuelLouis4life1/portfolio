@@ -1,5 +1,5 @@
 .social_buttons a {
-    margin: 15px;
+    margin-right: 15px;
     font-size: 20px;
 }
 
@@ -7,12 +7,4 @@
     opacity: 1 !important;
     color: #f9b03e;
     font-size: 30px;
-}
-
-@media (max-width:1024px)
-{
-    .social_buttons a {
-        margin: 10px;
-        font-size: 20px;
-    }
 }

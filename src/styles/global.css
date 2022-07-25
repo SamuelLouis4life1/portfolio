@@ -70,3 +70,17 @@
 .remove-scroll {
 	overflow: hidden;
 }
+
+.title {
+	color: var(--font-color);
+	font-size: 10rem;
+	padding: 3rem;
+	text-align: center;
+}
+
+.subtitle {
+	color: var(--font-color);
+	font-size: 10rem;
+	padding: 3rem;
+	text-align: center;
+}
