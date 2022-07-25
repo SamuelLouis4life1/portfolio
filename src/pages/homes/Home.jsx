@@ -7,7 +7,7 @@ import { loadFull } from "tsparticles";
 // import Particles from 'react-particles-js';
 // import ParticleAnimation from 'react-particle-animation'
 import SocialMidiaIcons from "../../components/SocialMedia";
-import particlesConfig from '../../particlesConfig/particlesConfig.json'
+// import particlesConfig from '../../particlesConfig/particlesConfig.json'
 import NavbarMenu from "../../components/Nav";
 import "./home.css";
 import { UrlSocialMedia } from "../../consts"
