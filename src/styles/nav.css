@@ -23,12 +23,8 @@
     border-radius: 50%;
 }
 
-.navbar a {
-    text-decoration: none;
-}
-
 .menuItem {
-    color: #000000;
+    color: var(--font-color-light);
     font-size: 18px;
     font-weight: 500;
     margin-right: 3rem;
@@ -51,6 +47,10 @@
 .link-text {
     display: none;
     margin-left: 1rem;
+}
+
+.link-text > p {
+    color: var(--font-color-light);
 }
 
 .nav-link:hover {
@@ -106,7 +106,7 @@
     font-size: 14px;
     text-align: left;
     list-style: none;
-    background-color: #fff;
+    background-color: var(--font-color-color); 
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0,0,0,.15);

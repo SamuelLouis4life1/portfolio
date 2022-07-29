@@ -17,7 +17,8 @@
         "home" : {
             "hi" : "Hi, I'm",
             "name" : "Samuel Louis Sampeur",
-            "belief" : "believe in YESHUA. ",
+            "belief" : "believe in ",
+            "YESHUA": "YESHUA",
             "bibleVerse" : "bible verse"
         },
         "about" : {

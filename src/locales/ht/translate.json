@@ -17,7 +17,8 @@
         "home" : {
             "hi" : "Sali, Mwen se ",
             "name" : "Louis Samuel Sampeur",
-            "belief" : "Mwen kwe nan YESHUA ! ",
+            "belief" : "Mwen kwe nan ",
+            "YESHUA": "YESHUA",
             "bibleVerse" : "Verse Biblik"
         },
         "about" : {

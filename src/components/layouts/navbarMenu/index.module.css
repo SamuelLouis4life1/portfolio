@@ -1,0 +1,220 @@
+.navbar {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 4rem !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0;
+    transition: 0.4s ease-in-out;
+    margin: 0;
+    padding: 0.5rem !important;
+}
+
+.navbar:hover {
+    height: 5rem !important;
+    transition: 0.4s ease-in-out;
+}
+
+.img_logo_navbar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.menuItem {
+    color: var(--font-color-light);
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 3rem;
+    display: inline-grid;
+}
+
+.lang-toggle-theme {
+    gap: 2rem;
+    display: flex;
+}
+
+.me-auto > a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+    width: 5rem;
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.link-text > p {
+    color: var(--font-color-light);
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    transition: 0.4s ease-in-out;
+}
+
+.navbar:hover .logo svg {
+    transform: rotate(-180deg);
+    transition: 0.4s ease-in-out;
+}
+
+.navbar:hover .link-text, svg:hover {
+    display: inline;
+    transition: opacityvar(--transition-speed);
+    transition: 0.4s ease-in-out;
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar:hover .img_logo_navbar {
+    width: 60px;
+    height: 60px;
+}
+
+.dropdown-item {
+    font-size: 20px;
+    width: max-content;
+    padding: 0 20px;
+}
+
+.show {
+    display: grid !important;
+}
+
+.dropdown-menu {
+    background-color: var(--background-color);
+}
+
+.dropdown, .dropup {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 8rem;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+}
+
+@media only screen and (max-width: 1024px) {
+    .dropdown-item {
+        font-size: 10px;
+        width: max-content;
+        padding: 0 20px;
+    }
+
+    .small-device-bottom {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+      position: fixed;
+      display: grid;
+      grid-auto-flow: column;
+    }
+
+    .menuItem svg {
+        height: 25px;
+        width: 25px;
+    }
+
+    .me-auto > a {
+        display: inline-flex;
+        align-items: center;
+        width: 3.3rem;
+    }
+
+    .toggle-theme {
+        position: relative;
+        display: inline-block;
+        height: 24px;
+        width: 40px;
+    }
+
+    .slider:before {
+        left: 0 !important;
+    }
+
+    .hide-small-screen {
+        display: none !important;
+    }
+}
+
+/* Small screens */
+@media only screen and (max-width: 740px) {
+    .dropdown-item {
+        font-size: 10px;
+        width: max-content;
+        padding: 0 20px;
+    }
+
+    .navbar:hover .link-text, svg:hover {
+        font-size: 1rem !important;
+        display: inline;
+        transition: 0.4s ease-in-out;
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .navbar:hover .img_logo_navbar {
+        width: 50px;
+        height: 50px;
+    }
+
+    .small-device-bottom {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        bottom: 0;
+        width: 100vw;
+        height: 7rem;
+        position: fixed;
+        grid-auto-flow: dense;
+    }
+
+    .menuItem svg {
+        height: 15px;
+        width: 15px;
+    }
+
+    .me-auto > a {
+        display: inline-flex;
+        align-items: center;
+        flex-direction: row;
+        width: auto;
+        margin-right: 0;
+        gap: 0;
+    }
+
+    .toggle-theme {
+        position: relative;
+        display: inline-block;
+        height: 24px;
+        width: 40px;
+    }
+
+    .slider:before {
+        left: 0 !important;
+    }
+
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+}
