@@ -17,7 +17,8 @@
         "home" : {
             "hi" : "Salut, Je suis",
             "name" : "Louis Samuel Sampeur",
-            "belief" : "Je crois en Dieu YESHUA ! ",
+            "belief" : "Je crois en ",
+            "YESHUA": "YESHUA",
             "bibleVerse" : "Verset Biblique"
         },
         "about" : {

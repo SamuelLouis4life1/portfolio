@@ -3,8 +3,12 @@
     font-size: 20px;
 }
 
+.social_buttons > svg {
+    color: var(--font-color-light);
+}
+
 .social_buttons a:hover {
     opacity: 1 !important;
-    color: #f9b03e;
+    color: var(--font-color-light);
     font-size: 30px;
 }

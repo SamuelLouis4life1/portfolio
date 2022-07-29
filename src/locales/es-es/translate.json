@@ -17,7 +17,8 @@
         "home" : {
             "hi" : "Olá, Yo soy",
             "name" : "Samuel Louis Sampeur",
-            "belief" : "Creio em YESHUA. ",
+            "belief" : "Creio em ",
+            "YESHUA": "YESHUA",
             "bibleVerse" : "bible verse"
         },
         "about" : {

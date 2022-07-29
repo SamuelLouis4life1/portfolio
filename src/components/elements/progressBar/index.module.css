@@ -1,0 +1,6 @@
+.labelStyles {
+    color: var(--background-color);
+    padding: 1;
+    font-weight: bolder;
+    transition: width 1s ease-in-out;
+}

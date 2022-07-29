@@ -1,69 +1,14 @@
-import React, { useCallback } from "react";
-import { withTranslation } from "react-i18next";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import React from "react";
+import HomeIndex from "../homes/home/index";
+import Skills from "../../pages/homes/skills/index";
+import Portfolio from "../../pages/homes/portfolio/index"
 
-// import Particles from 'react-tsparticles';
-// import Particles from 'react-particles-js';
-// import ParticleAnimation from 'react-particle-animation'
-import SocialMidiaIcons from "../../components/SocialMedia";
-import particlesConfig from '../../particlesConfig/particlesConfig.json'
-import NavbarMenu from "../../components/Nav";
-import "./home.css";
-import { UrlSocialMedia } from "../../consts"
-import {
-    FaBehanceSquare,
-    FaFacebookSquare,
-    FaGithubSquare,
-    FaInstagramSquare,
-    FaLinkedin,
-    FaTwitterSquare
-} from "react-icons/fa";
-
-export function Home(props) {
-    const { t } = props;
-
-    const particlesInit = (main) => {
-        console.log(main);
-    };
-
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
-
+export default function Home(){
     return (
-        <header className="home" id="home">
-            <NavbarMenu />
-            {/* <ParticleAnimation /> */}
-            <Particles />
-
-            {/* <div>
-            <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                params={particlesConfig} className="App-particles__container"
-            />
-            </div> */}
-
-            <div className="home-description">
-
-                <h5>{t("home.hi")}</h5>
-                <h1>{t("home.name")}</h1>
-                <h5>Fullstack Developer</h5>
-                <p>{t("home.belief")}<a href="#" className="">bible verse</a> </p>
-
-                <div className="home-social">
-                    <SocialMidiaIcons linkSocialMidia={UrlSocialMedia.User1Insta} icon={FaFacebookSquare} />
-                    <SocialMidiaIcons linkSocialMidia={UrlSocialMedia.User1Insta} icon={FaLinkedin} />
-                    <SocialMidiaIcons linkSocialMidia={UrlSocialMedia.User1Insta} icon={FaInstagramSquare} />
-                    <SocialMidiaIcons linkSocialMidia={UrlSocialMedia.User1Insta} icon={FaTwitterSquare} />
-                    <SocialMidiaIcons linkSocialMidia={UrlSocialMedia.User1Insta} icon={FaGithubSquare} />
-                    <SocialMidiaIcons linkSocialMidia={UrlSocialMedia.User1Insta} icon={FaBehanceSquare} />
-                </div>
-            </div>
-        </header>
-    )
+        <>
+        <HomeIndex />
+        <Skills />
+        <Portfolio />
+        </>
+    );
 }
-
-export default withTranslation()(Home);
