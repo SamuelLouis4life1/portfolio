@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import { withTranslation } from "react-i18next";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+// import Particles from "react-tsparticles";
+// import { loadFull } from "tsparticles";
 // import Particles from 'react-tsparticles';
 // import Particles from 'react-particles-js';
 // import ParticleAnimation from 'react-particle-animation'
@@ -32,9 +32,10 @@ export function HomeIndex(props) {
 
     return (
         <header className={styles.home} id="home">
+            <div class={styles.bgImg}></div>
             <NavbarMenu />
             {/* <ParticleAnimation /> */}
-            <Particles />
+            {/* <Particles /> */}
 
             {/* <div>
             <Particles
