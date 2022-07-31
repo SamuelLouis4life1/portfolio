@@ -27,10 +27,12 @@
             "descriptionP1" : "Olá, sou Samuel Louis Sampeur, trabalhei como Garçom/Barman em ",
             "descriptionP2" : "Além das funções de Bartender, fui frequentemente chamado para atender clientes estrangeiros, principalmente devido à minha facilidade com idiomas e comunicação com as pessoas. Após três anos e meio decidi mudar de profissão e iniciei uma estágio em uma empresa de telecomunicação ",
             "descriptionP3" : "Aí depois vem a pandemia do COVID-19... Agora formado em engenharia de software e prestes a terminar engenharia da computação na ",
-            "descriptionP4" : "Estou trabalhando como desenvolvedor foolstack em uma empresa de telecomunicações. ",
-            "descriptionP5" : "Estou procurando emprego freelance. Também tenho especialização em web design, design de aplicativos, para poder projetar e construir seu site do zero. Tenho certeza de que você não se arrependerá se quiser trabalhar juntos em seu próximo projeto ou projeto existente, você pode ",
-            "descriptionP6" : "Sou extrovertido, dedicado e de mente aberta. Me relaciono com as pessoas e me adapto às mudanças com facilidade. Acredito que uma pessoa deve trabalhar para desenvolver suas habilidades profissionais e aprender coisas novas o tempo todo ",
-            
+            "descriptionP4" : "Atualmente estou trabalhando como desenvolvedor foolstack em uma empresa de telecomunicações, ",
+            "descriptionP5" : "Faço trabalho de freelance. Também tenho especialização em web design, design de aplicativos, para poder projetar e construir seu site do zero. Tenho certeza de que você não se arrependerá se quiser trabalhar juntos em seu próximo projeto ou projeto existente, você pode ",
+            "descriptionP6" : "Sou extrovertido, dedicado e de mente aberta. Me relaciono com as pessoas e me adapto às mudanças com facilidade. Acredito que uma pessoa deve trabalhar para desenvolver suas habilidades profissionais e aprender coisas novas o tempo todo. ",
+            "moreAboutme": "Descubra mais sobre me ",
+            "showMore": "Show more",
+
             "descriptionP7" : "Sou apaixonado por jogar xadrez, ",
             "subTitle2" : "O que faço no meu tempo livre: ",
             "moreAbout" : "Mais sobre mim: ",
@@ -51,9 +53,11 @@
             "college" : "INFNET, Rio de Janeiro ",
             "aboutMeCity" : "Rio de Janeiro",
             "sampeurs" : "SAMPEUR'S",
-            "contact" : "Me Contacta",
-            "mundivox" : "MUNDIVOX ",
-            "marriott" : "Marriott Hotel "            
+            "contact" : "Me Contacta.",
+            "mundivox" : "MUNDIVOX. ",
+            "marriott" : "Marriott Hotel ",
+            "telecall" : "Telecall. "
+
         },
         "skills" : {
             "title" : "Habilidades",

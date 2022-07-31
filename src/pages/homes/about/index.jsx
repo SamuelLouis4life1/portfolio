@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./index.module.css";
 // import "../css/button.css";
 import { Link } from "react-router-dom";
+import { Nav } from "react-bootstrap"
 import { Container } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 import AboutImg from "../../../images/logo.png";
@@ -51,15 +52,15 @@ export function About(props) {
   }, [userOs]);
 
 
-  //   (function () {
-  //     var words = ["Fullstack Developer", "Developer"],
-  //       i = 0;
-  //     setInterval(function () {
-  //       $('#words').fadeOut(function () {
-  //         $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-  //       });
-  //     }, 5000)
-  //   })();
+    // (function () {
+    //   var words = ["Fullstack Developer", "Developer"],
+    //     i = 0;
+    //   setInterval(function () {
+    //     $('#words').fadeOut(function () {
+    //       $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+    //     });
+    //   }, 5000)
+    // })();
 
   return (
     <>
@@ -72,27 +73,26 @@ export function About(props) {
 
           <div className={styles.aboutLeftContents}>
             {/* <div class={styles.aboutImg}></div> */}
-            <img src={AboutImg} alt="" />
-            {/* <p id="words" className={styles.aboutImgTitle}>{t("about.bigText2")}</p> */}
+              <img src={AboutImg} alt="" />
+              <p id="words" className={styles.aboutImgTitle}>{t("about.bigText2")}</p>
             <p className={styles.aboutImgSubTitle}>{t("about.bigText5")}<Link to={"/sampeurs"} className="link">{t("sampeurs")}</Link></p>
           </div>
 
-          <div className="about-item about-description">
-            <h3 className="about-subTitle">{t("about.subTitle")}</h3>
+          <div className={styles.aboutRightContents}>
+            <h3>{t("about.subTitle")}</h3>
             <p>{t("about.descriptionP1")}
-              <Link to={"/https://www.marriott.com/en-us/hotels/riori-residence-inn-rio-de-janeiro-barra-da-tijuca/overview/"} className="link"> {t("about.marriott")}</Link>
+              <Nav.Link href="https://www.marriott.com/en-us/hotels/riori-residence-inn-rio-de-janeiro-barra-da-tijuca/overview/" target="_blank" rel="noopener noreferrer" className="link"> {t("about.marriott")}</Nav.Link>
               {t("about.descriptionP2")}
-              <Link to={"/https://www.mundivox.com/homepage"} className="link"> {t("about.mundivox")}</Link>
+              <Nav.Link href="https://www.mundivox.com/homepage" target="_blank" rel="noopener noreferrer" className="link"> {t("about.mundivox")}</Nav.Link>
               {t("about.descriptionP3")}
-              <Link to={"/https://www.infnet.edu.br/rj/"} className="link">{t("about.college")}</Link>
+              <Nav.Link href="https://www.infnet.edu.br/rj/" target="_blank" rel="noopener noreferrer" className="link">{t("about.college")}</Nav.Link>
               {t("about.descriptionP4")}
-              <Link to={"https://www.telecall.com/"} className="link">{t("about.college")}</Link>
-              {t("about.nowWorkink")}
+              <Nav.Link href="https://www.telecall.com/" target="_blank" rel="noopener noreferrer" className="link">{t("about.telecall")}</Nav.Link>
             </p>
-
             <p>{t("about.descriptionP5")} <HashLink to="/#contact" className="link"> {t("about.contact")} </HashLink></p>
 
-            <p>{t("about.descriptionP6")}</p>
+            <p>{t("about.descriptionP6")} {t("about.moreAboutme")} <button>{t("about.showMore")}</button></p>
+            
 
             <div className="about-item about-btn">
               <button class="blob-btn">

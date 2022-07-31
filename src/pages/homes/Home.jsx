@@ -11,8 +11,8 @@ export default function Home(){
         <HomeIndex />
         <About />
         <Skills />
-        <Portfolio />
-        <Footer />
+        {/* <Portfolio /> */}
+        {/* <Footer /> */}
         </>
     );
 }

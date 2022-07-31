@@ -6,6 +6,10 @@
     padding: 0.9rem 3rem 0;
 }
 
+.aboutSection a {
+    font-weight: bold;
+}
+
 .title {
     /* margin: 0; */
 	color: var(--font-color);
@@ -21,14 +25,19 @@
 }
 
 .aboutLeftContents {
-    width: 100wh;
-    height: 100vh;
+    /* width: 100wh;
+    height: 100vh; */
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-
+.aboutLeftContents p {
+    margin-left: 0;
+    padding-left: 0;
+}
 
 .aboutLeftContents .aboutImg {
     /* width: 100%;
@@ -45,12 +54,14 @@
 }
 
 .aboutImgTitle {
-    font-size: 80px;
+    font-size: 6rem;
     opacity: 0.2;
     font-weight: bold;
+    white-space: nowrap;
     /* margin-top: -300px;
     display: flex; */
     justify-content: right;
+    margin-top: -230px;
 }
 
 .aboutImgSubTitle {
@@ -65,10 +76,6 @@
     margin: 20px;
 }
 
-.about-description {
-    margin: 20px;
-}
-
 .about-btn {
     display: flex;
     justify-content: space-between;
@@ -76,4 +83,40 @@
     margin: 0 auto;
     padding: 100px 0;
     text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutSection {
+        padding: 0.9rem 1rem 0;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutRightContents {
+        margin: 0.5rem;
+    }
+
+    .aboutImgTitle {
+        font-size: 3rem;
+        margin-top: -130px;
+    }
+
+    .aboutRightContents h3 {
+        justify-content: center;
+        display: flex;
+    }
+    
 }
