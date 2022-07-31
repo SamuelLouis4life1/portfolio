@@ -7,7 +7,9 @@ import { withTranslation } from "react-i18next";
 // import ParticleAnimation from 'react-particle-animation'
 import SocialMidiaIcons from "../../../components/SocialMedia";
 // import particlesConfig from '../../particlesConfig/particlesConfig.json'
+
 import NavbarMenu from "../../../components/Nav";
+// import NavbarMenu from "../../../components/layouts/navbar";
 import styles from "./index.module.css";
 import { UrlSocialMedia } from "../../../consts"
 import {
