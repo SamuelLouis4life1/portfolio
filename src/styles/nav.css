@@ -1,5 +1,4 @@
 .navbar {
-    z-index: 999;
     position: fixed;
     width: 100%;
     height: 4rem !important;
@@ -10,11 +9,6 @@
     transition: 0.4s ease-in-out;
     margin: 0;
     padding: 0.5rem !important;
-}
-
-.navbar:hover {
-    height: 5rem !important;
-    transition: 0.4s ease-in-out;
 }
 
 .img_logo_navbar {
@@ -58,21 +52,26 @@
     transition: 0.4s ease-in-out;
 }
 
-.navbar:hover .logo svg {
+.onHover:hover .logo svg {
     transform: rotate(-180deg);
     transition: 0.4s ease-in-out;
 }
 
-.navbar:hover .link-text, svg:hover {
+.onHover:hover .link-text, svg:hover {
     display: inline;
     transition: opacityvar(--transition-speed);
     transition: 0.4s ease-in-out;
     color: rgb(255, 255, 255) !important;
 }
 
-.navbar:hover .img_logo_navbar {
+.onHover:hover .link-text {
+    height: 1.5rem !important;
+}
+
+.onHover:hover .img_logo_navbar {
     width: 60px;
     height: 60px;
+    
 }
 
 .dropdown-item {
@@ -102,7 +101,7 @@
     float: left;
     min-width: 8rem;
     padding: 5px 0;
-    margin: 2px 0 0;
+    margin: 0.5rem -1rem 0;
     font-size: 14px;
     text-align: left;
     list-style: none;
@@ -117,7 +116,7 @@
 
 @media only screen and (max-width: 1024px) {
     .dropdown-item {
-        font-size: 10px;
+        font-size: 15px;
         width: max-content;
         padding: 0 20px;
     }
@@ -161,19 +160,19 @@
 /* Small screens */
 @media only screen and (max-width: 740px) {
     .dropdown-item {
-        font-size: 10px;
+        font-size: 15px;
         width: max-content;
         padding: 0 20px;
     }
 
-    .navbar:hover .link-text, svg:hover {
+    .onHover:hover .link-text, svg:hover {
         font-size: 1rem !important;
         display: inline;
         transition: 0.4s ease-in-out;
         color: rgb(255, 255, 255) !important;
     }
 
-    .navbar:hover .img_logo_navbar {
+    .onHover:hover .img_logo_navbar {
         width: 50px;
         height: 50px;
     }

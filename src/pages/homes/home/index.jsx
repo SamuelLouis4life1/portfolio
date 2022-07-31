@@ -1,13 +1,15 @@
 import React, { useCallback } from "react";
 import { withTranslation } from "react-i18next";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+// import Particles from "react-tsparticles";
+// import { loadFull } from "tsparticles";
 // import Particles from 'react-tsparticles';
 // import Particles from 'react-particles-js';
 // import ParticleAnimation from 'react-particle-animation'
 import SocialMidiaIcons from "../../../components/SocialMedia";
 // import particlesConfig from '../../particlesConfig/particlesConfig.json'
+
 import NavbarMenu from "../../../components/Nav";
+// import NavbarMenu from "../../../components/layouts/navbar";
 import styles from "./index.module.css";
 import { UrlSocialMedia } from "../../../consts"
 import {
@@ -32,9 +34,10 @@ export function HomeIndex(props) {
 
     return (
         <header className={styles.home} id="home">
+            <div class={styles.bgImg}></div>
             <NavbarMenu />
             {/* <ParticleAnimation /> */}
-            <Particles />
+            {/* <Particles /> */}
 
             {/* <div>
             <Particles

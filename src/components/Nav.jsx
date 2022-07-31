@@ -4,7 +4,7 @@ import "../styles/flag-icons.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 import { BrowserRouter as Link } from "react-router-dom";
-import DarkMode from "./darkMode/DarkMode";
+import DarkMode from "./darkMode";
 import { FaBitbucket, FaCog, FaHome } from "react-icons/fa";
 import imgLogo from "../images/logo.png"
 import { MdWork, MdDesignServices, MdContactMail } from "react-icons/md";
@@ -60,7 +60,7 @@ class NavbarMenu extends React.Component {
             paddingBotton: 0,
           }}
         >
-          <Navbar.Brand className="small-device small-device-top">
+          <Navbar.Brand className="small-device small-device-top onHover">
             <a href="/">
               <img
                 className="img_logo_navbar"
@@ -70,7 +70,7 @@ class NavbarMenu extends React.Component {
             </a>
           </Navbar.Brand>
 
-          <Nav className="me-auto small-device-bottom">
+          <Nav className="me-auto small-device-bottom onHover">
             <a href="/" className="menuItem hide-small-screen"> <FaHome /> <span className="link-text"><p>{t("navbarMenu.home")}</p></span></a>
             <a href="#about" className="menuItem"> <FaCog /> <span className="link-text"><p>{t("navbarMenu.about")}</p></span></a>
             <a href="#skills" className="menuItem"> <GiSkills /> <span className="link-text"><p>{t("navbarMenu.skills")}</p></span></a>
