@@ -80,12 +80,14 @@ export function About(props) {
           <div className="about-item about-description">
             <h3 className="about-subTitle">{t("about.subTitle")}</h3>
             <p>{t("about.descriptionP1")}
-              <Link to={"/sampeurs"} className="link"> {t("about.marriott")}</Link>
+              <Link to={"/https://www.marriott.com/en-us/hotels/riori-residence-inn-rio-de-janeiro-barra-da-tijuca/overview/"} className="link"> {t("about.marriott")}</Link>
               {t("about.descriptionP2")}
-              <Link to={"/sampeurs"} className="link"> {t("about.mundivox")}</Link>
+              <Link to={"/https://www.mundivox.com/homepage"} className="link"> {t("about.mundivox")}</Link>
               {t("about.descriptionP3")}
-              <Link to={"/sampeurs"} className="link">{t("about.college")}</Link>
+              <Link to={"/https://www.infnet.edu.br/rj/"} className="link">{t("about.college")}</Link>
               {t("about.descriptionP4")}
+              <Link to={"https://www.telecall.com/"} className="link">{t("about.college")}</Link>
+              {t("about.nowWorkink")}
             </p>
 
             <p>{t("about.descriptionP5")} <HashLink to="/#contact" className="link"> {t("about.contact")} </HashLink></p>

@@ -1,12 +1,17 @@
 @import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css);
 
 .portfolioSetion {
-  width: 100%;
+  width: 100wh;
   height: 100vh;
   background: var(--background-color);
-  z-index: 1;
   position: relative;
-  padding: 30px;
+  padding: 0.9rem 3rem 0;
+}
+
+.title {
+	color: var(--font-color);
+	font-size: 4rem;
+	text-align: center;
 }
 
 .owlCarousel {
