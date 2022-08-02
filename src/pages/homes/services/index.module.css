@@ -1,0 +1,25 @@
+.services-setion {
+    width: 100%;
+    height: 160vh;
+    background: var(--background-color-light);
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+  }
+  
+  .services-description {
+    font-size: 120px;
+    text-align: center;
+    color: black;
+    background: burlywood;
+    z-index: 2;
+    position: absolute;
+  }
+  
+  .service_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding-bottom: 230px;
+  }
