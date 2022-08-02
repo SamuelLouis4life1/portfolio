@@ -1,0 +1,15 @@
+.experiences-section {
+    width: 100%;
+    height: 100vh;
+    background: #fff !important;
+    z-index: 100;
+}
+
+.experiences-description {
+    font-size: 120px;
+    text-align: center;
+    color: black;
+    background: burlywood;
+    z-index: 2;
+    position: absolute;
+}
