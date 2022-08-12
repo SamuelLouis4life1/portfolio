@@ -17,7 +17,7 @@ export function Portfolio(props) {
     return (
 
         <section className={styles.portfolioSetion} id="portfolio">
-            <h1 className={styles.title}>{t("portfolio.title")}</h1>
+            <h1 className="title">{t("portfolio.title")}</h1>
 
             <div className={styles.owlCarousel}>
                 <div className={styles.options}>
