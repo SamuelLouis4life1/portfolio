@@ -10,7 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Suspense fallback="loading"><Home /></Suspense>}/>
+        {["/", "/portfolio"].map((path, index) => 
+          <Route path={path} element={<Suspense fallback="loading"><Home /></Suspense>} key={index} />
+        )}
         <Route exact path="/sampeurs" element={<Suspense fallback="loading"><Sampeurs /></Suspense>} />
         <Route path="*" element={<Suspense fallback="loading"><NotFound /></Suspense>} />
       </Routes>
