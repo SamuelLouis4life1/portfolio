@@ -1,0 +1,133 @@
+.skills-section {
+    width: 100%;
+    height: 115vh;
+    background: var(--background-color-light);
+    position: relative;
+    padding: 30px;
+}
+
+.skill-img {
+    width: 50px;
+    min-height: 100%;
+    margin-right: 20px
+}
+
+.skills_data {
+    display: grid;
+    align-content: center;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 10fr;
+}
+
+.skills-body .skills-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.title {
+    margin: 0;
+	color: var(--font-color);
+	font-size: 4rem;
+	padding-top: 0.5rem;
+	text-align: center;
+}
+
+.subtitle {
+    margin: 0;
+    color: var(--font-color);
+	font-size: 3rem;
+	text-align: center;
+}
+
+/* Tab */
+.tab {
+    overflow: hidden;
+    background-color: #F5F5F5;
+    max-width: 1100px;
+    margin: 20px auto 0px auto;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .tab {
+        overflow-x: scroll;
+        border-radius: 0;
+    }
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 40px;
+    transition: 0.3s;
+    font-size: 20px;
+    border-radius: 0;
+    color: var(--color-primary);
+    text-transform: capitalize;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 20px 25px;
+    border-top: none;
+    max-width: 1100px;
+    margin: 0px auto 100px auto;
+    box-shadow: 0px 10px 20px #00000029;
+}
+
+.tabcontent svg {
+    width: 100%;
+    height: 100%;
+}
+
+.tabContentInfo {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .tabContentInfo {
+        flex-direction: column;
+    }
+}
+
+.tabContentInfo img {
+    max-width: 300px;
+}
+
+
+
+.skills-tab {
+    padding: 0;
+}
+
+.skills-tab button {
+    text-transform: none;
+    white-space: nowrap;
+    color: #828282;
+    margin: 0;
+    width: 100%;
+}
+.skills-tab small {
+    font-size: 0.8rem;
+}
+
+.skills-tab button:disabled {
+    opacity: 0.5;
+    filter: brightness(0.95);
+}
+
+.skills_list{
+    margin-left: 40px;
+    transition: .4s;
+}
