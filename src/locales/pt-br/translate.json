@@ -76,7 +76,10 @@
             "spanish" : "Espanhol",
             "french" : "Francês",
             "english" : "Inglês",
-            "portugues" : "Português"
+            "portugues" : "Português",
+            "internet" : "Internet de las Cosas",
+            "data" : "Ciência de dados",
+            "machine" : "Aprendizado de máquina"
         },
         "experiences" : {
             "title" : "Experiences",

@@ -69,7 +69,10 @@
             "spanish" : "Espagnol",
             "french" : "Français",
             "english" : "Anglais",
-            "portugues" : "Portugais"
+            "portugues" : "Portugais",
+            "internet" : "Internet des objets",
+            "data" : "Science des données",
+            "machine" : "Apprentissage automatique"
         },
         "experiences" : {
             "description" : "description experiences fr"

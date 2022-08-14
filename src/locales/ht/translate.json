@@ -69,7 +69,10 @@
             "spanish" : "Panyòl",
             "franse" : "Franse",
             "english" : "Angle",
-            "portugues" : "pòtigè"
+            "portugues" : "pòtigè",
+            "internet" : "Entènèt dè objè",
+            "data" : "Syans dè done",
+            "machine" : "Aprantisaj otomatik"
         },
         "experiences" : {
             "description" : "deskripsyon experiences"

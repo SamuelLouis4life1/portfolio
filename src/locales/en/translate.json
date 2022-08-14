@@ -69,7 +69,10 @@
             "spanish" : "Spanish",
             "french" : "French",
             "english" : "English",
-            "portugues" : "Portugues"
+            "portugues" : "Portugues",
+            "internet" : "Internet of Things",
+            "data" : " Data Science ",
+            "machine" : "Machine Learning"
         },
         "experiences" : {
             "description" : " description experiences"
