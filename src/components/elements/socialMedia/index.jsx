@@ -9,12 +9,13 @@ import {
     FaTwitterSquare
 } from "react-icons/fa";
 import { UrlSocialMedia } from "../../../consts"
+import { withTranslation } from "react-i18next";
 
 export function SocialMidiaIcon(props) {
-    const { linkSocialMidia, icon } = props;
+    const { t } = props;
 
     return (
-        <div class={styles.hover}><span>Follow me</span>
+        <div class={styles.hover}><span>{t("home.follow")}</span>
             <a class={styles.socialLink} href={`${UrlSocialMedia}`} target="_blank" rel="noopener noreferrer"><FaFacebookSquare/></a>
             <a class={styles.socialLink} href={`${UrlSocialMedia.myLinkedIn}`} target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
             <a class={styles.socialLink} href={`${UrlSocialMedia.myInsta}`} target="_blank" rel="noopener noreferrer"><FaInstagramSquare/></a>
@@ -24,4 +25,4 @@ export function SocialMidiaIcon(props) {
         </div>
     )
 }
-export default SocialMidiaIcon;
+export default withTranslation()(SocialMidiaIcon);

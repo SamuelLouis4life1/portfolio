@@ -19,7 +19,8 @@
             "name" : "Louis Samuel Sampeur",
             "belief" : "Je crois en ",
             "YESHUA": "YESHUA",
-            "bibleVerse" : "Verset Biblique"
+            "bibleVerse" : "Verset Biblique",
+            "follow" : "Suivez-moi"
         },
         "spinner" : {
             "welcome": "Attendez! Tous les caractères sont en cours de chargement"

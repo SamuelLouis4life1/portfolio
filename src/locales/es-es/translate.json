@@ -19,7 +19,8 @@
             "name" : "Samuel Louis Sampeur",
             "belief" : "Creio em ",
             "YESHUA": "YESHUA",
-            "bibleVerse" : "bible verse"
+            "bibleVerse" : "bible verse",
+            "follow" : "Sígame"
         },
         "spinner" : {
             "welcome": "¡Esperar! Todos los personajes se están cargando."
