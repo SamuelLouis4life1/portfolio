@@ -6,6 +6,7 @@ import { withTranslation } from "react-i18next";
 // import Particles from 'react-particles-js';
 // import ParticleAnimation from 'react-particle-animation'
 import SocialMidiaIcons from "../../../components/elements/socialMedia/index";
+// import Particles from 'react-particles-js';
 // import particlesConfig from '../../particlesConfig/particlesConfig.json'
 
 import NavbarMenu from "../../../components/Nav";
@@ -38,6 +39,26 @@ export function HomeIndex(props) {
                 params={particlesConfig} className="App-particles__container"
             />
             </div> */}
+
+{/* <Particles
+                id="tsparticles"
+                init={particlesInit}
+                loaded={particlesLoaded}
+                params={particlesConfig} className="App-particles__container"
+            /> */}
+
+
+{/* <Particles 
+                params={{
+                    polygon: {
+                        enable: true,
+                        type: 'inside',
+                        move: {
+                            radius: 10
+                        },
+                        url: 'path/to/svg.svg'
+                    }
+                }} /> */}
 
             <div className={styles.homeDescription}>
 

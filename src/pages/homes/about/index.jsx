@@ -97,24 +97,24 @@ export function About(props) {
             <div className="about-item about-btn">
               <button class="blob-btn">
                 {t("about.aboutMeBtn")}
-                <span class="blob-btn__inner">
-                  <span class="blob-btn__blobs">
-                    <span class="blob-btn__blob"></span>
-                    <span class="blob-btn__blob"></span>
-                    <span class="blob-btn__blob"></span>
-                    <span class="blob-btn__blob"></span>
+                <span className="blob-btn__inner">
+                  <span className="blob-btn__blobs">
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
                   </span>
                 </span>
               </button>
 
-              <button class="blob-btn" value={userOs} onChange={(e) => setUserOS(e.target.value)}>
+              <button className="blob-btn" value={userOs} onChange={(e) => setUserOS(e.target.value)}>
                 {t("about.aboutMeCv")}
-                <span class="blob-btn__inner">
-                  <span class="blob-btn__blobs">
-                    <span class="blob-btn__blob"></span>
-                    <span class="blob-btn__blob"></span>
-                    <span class="blob-btn__blob"></span>
-                    <span class="blob-btn__blob"></span>
+                <span className="blob-btn__inner">
+                  <span className="blob-btn__blobs">
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
                   </span>
                 </span>
               </button>
