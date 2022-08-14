@@ -61,7 +61,7 @@
     display: inline;
     transition: opacityvar(--transition-speed);
     transition: 0.4s ease-in-out;
-    color: rgb(255, 255, 255) !important;
+    color: var(--background-color);
 }
 
 .onHover:hover .link-text {

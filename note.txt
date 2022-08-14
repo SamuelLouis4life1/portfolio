@@ -9,9 +9,33 @@
     https://hgleyder.github.io/react-animated-button/#animatedbutton
     https://www.npmjs.com/package/react-animated-buttons
     https://webdeasy.de/en/top-css-buttons-en/
+    https://freefrontend.com/css-buttons/
+        https://codepen.io/joshuaward/pen/aQXLPa
+        https://codepen.io/Mahmood_bagheri/pen/YzqNqEb
+        https://codepen.io/akshaycodes/pen/XyoVEp
+        https://codepen.io/ajerez/pen/XmbQXQ/
+
 
 4)  material ui
     https://mui.com/material-ui/react-button/
+
+5)  slide down button
+    https://codepen.io/joshuaward/pen/XWbyJVV
+
+6)  loading page
+    https://fxground.com/fx/css-loaders-vol-1/
+    https://codepen.io/tag/loading?cursor=ZD0xJm89MCZwPTM=
+    https://codepen.io/jkantner/pen/Yzaxqzy
+    https://stackabuse.com/how-to-create-a-loading-animation-in-react-from-scratch/
+    https://codesandbox.io/s/mqx0ql55qp
+    http://htmlburger.com/sample-parser?file=https://gitlab.com/fxground/effects/raw/master/page-loading/css-loaders/loaders-1/src/assets/css/_module.loader.css
+
+7)  animated scroll
+    https://oieduardorabelo.medium.com/anima%C3%A7%C3%B5es-de-scroll-em-react-521cc44e9d59
+
+
+
+
 
 
 antes, não pensei que existia anjos na terra, mas qdo te ver e começamos a falar percebi q tava engano pq tem sim, anjos na terra.
