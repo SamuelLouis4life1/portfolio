@@ -92,7 +92,7 @@ background:#f1c40f;
 .coffee__cup-part,
 .coffee__cup-handle,
 .coffee__steam-part {
-	animation-duration: 8s;
+	animation-duration: 4s;
 	animation-iteration-count: infinite;
 }
 .coffee__cup,
