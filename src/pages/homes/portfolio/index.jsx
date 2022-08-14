@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.module.css';
+import "./portfolio.css"
 import { withTranslation } from "react-i18next";
 
 
@@ -16,80 +17,80 @@ export function Portfolio(props) {
 
     return (
 
-        <section className={styles.portfolioSetion} id="portfolio">
-            <h1 className={styles.title}>{t("portfolio.title")}</h1>
+        <section className="portfolio-setion" id="portfolio">
+            <h1 className="title">{t("portfolio.title")}</h1>
 
-            <div className={styles.owlCarousel}>
-                <div className={styles.options}>
-                    <div onClick={handleClick} className={`${styles.option} ${styles.img2} ${styles.active}`}>
-                        <div className={styles.shadow}></div>
-                        <div className={styles.label}>
-                            <div className={styles.icon}>
+            <div className="owl-carousel">
+                <div className="options">
+                    <div onClick={handleClick} className="option img1 active">
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <div className="icon">
                                 <i className="fas fa-walking"></i>
                             </div>
-                            <div className={styles.info}>
-                                <div className={styles.main}>{t("portfolio.csharpProject")}</div>
-                                <div className={styles.sub}>{t("portfolio.csharpProjectDes")}</div>
+                            <div className="info">
+                                <div className="main">{t("portfolio.csharpProject")}</div>
+                                <div className="sub">{t("portfolio.csharpProjectDes")}</div>
                             </div>
                         </div>
                     </div>
-                    <div onClick={handleClick} className={`${styles.option} ${styles.img2}`}>
-                        <div className={styles.shadow}></div>
-                        <div className={styles.label}>
-                            <div className={styles.icon}>
+                    <div onClick={handleClick} className="option img2">
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <div className="icon">
                                 <i className="fas fa-snowflake"></i>
                             </div>
-                            <div className={styles.info}>
-                                <div className={styles.main}>{t("portfolio.prototypingProject")}</div>
-                                <div className={styles.sub}>{t("portfolio.prototypingProjectDes")}</div>
+                            <div className="info">
+                                <div className="main">{t("portfolio.prototypingProject")}</div>
+                                <div className="sub">{t("portfolio.prototypingProjectDes")}</div>
                             </div>
                         </div>
                     </div>
-                    <div onClick={handleClick} className={`${styles.option} ${styles.img3}`}>
-                        <div className={styles.shadow}></div>
-                        <div className={styles.label}>
-                            <div className={styles.icon}>
+                    <div onClick={handleClick} className="option img3">
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <div className="icon">
                                 <i className="fas fa-tree"></i>
                             </div>
-                            <div className={styles.info}>
-                                <div className={styles.main}>{t("portfolio.fronEndProject")}</div>
-                                <div className={styles.sub}>{t("portfolio.fronEndProjectDes")}</div>
+                            <div className="info">
+                                <div className="main">{t("portfolio.fronEndProject")}</div>
+                                <div className="sub">{t("portfolio.fronEndProjectDes")}</div>
                             </div>
                         </div>
                     </div>
-                    <div onClick={handleClick} className={`${styles.option} ${styles.img4}`}>
-                        <div className={styles.shadow}></div>
-                        <div className={styles.label}>
-                            <div className={styles.icon}>
+                    <div onClick={handleClick} className="option img4">
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <div className="icon">
                                 <i className="fas fa-tint"></i>
                             </div>
-                            <div className={styles.info}>
-                                <div className={styles.main}>{t("portfolio.androidProject")}</div>
-                                <div className={styles.sub}>{t("portfolio.androidProjectDes")}</div>
+                            <div className="info">
+                                <div className="main">{t("portfolio.androidProject")}</div>
+                                <div className="sub">{t("portfolio.androidProjectDes")}</div>
                             </div>
                         </div>
                     </div>
-                    <div onClick={handleClick} className={`${styles.option} ${styles.img5}`}>
-                        <div className={styles.shadow}></div>
-                        <div className={styles.label}>
-                            <div className={styles.icon}>
+                    <div onClick={handleClick} className="option img5">
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <div className="icon">
                                 <i className="fas fa-sun"></i>
                             </div>
-                            <div className={styles.info}>
-                                <div className={styles.main}>{t("portfolio.pythonProject")}</div>
-                                <div className={styles.sub}>{t("portfolio.pythonProjectDes")}</div>
+                            <div className="info">
+                                <div className="main">{t("portfolio.pythonProject")}</div>
+                                <div className="sub">{t("portfolio.pythonProjectDes")}</div>
                             </div>
                         </div>
                     </div>
-                    <div onClick={handleClick} className={`${styles.option} ${styles.img6}`}>
-                        <div className={styles.shadow}></div>
-                        <div className={styles.label}>
-                            <div className={styles.icon}>
+                    <div onClick={handleClick} className="option img6">
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <div className="icon">
                                 <i className="fas fa-sun"></i>
                             </div>
-                            <div className={styles.info}>
-                                <div className={styles.main}>{t("portfolio.goLangProject")}</div>
-                                <div className={styles.sub}>{t("portfolio.goLangProjectDes")}</div>
+                            <div className="info">
+                                <div className="main">{t("portfolio.goLangProject")}</div>
+                                <div className="sub">{t("portfolio.goLangProjectDes")}</div>
                             </div>
                         </div>
                     </div>
