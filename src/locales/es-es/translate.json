@@ -21,6 +21,9 @@
             "YESHUA": "YESHUA",
             "bibleVerse" : "bible verse"
         },
+        "spinner" : {
+            "welcome": "¡Esperar! Todos los personajes se están cargando."
+        },
         "about" : {
             "title": "Acerca de mí",
             "subTitle" : "Un poco sobre mí:",

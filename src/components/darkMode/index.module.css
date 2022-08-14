@@ -4,6 +4,13 @@
   --background-color: #eee;
   --background-color-light: rgb(255, 255, 255);
   --link-color: cornflowerblue;
+
+  	/* Spinner */
+	--hue: 223;
+	--bg: hsl(var(--hue),10%,90%);
+	--fg: hsl(var(--hue),10%,10%);
+	--primary: hsl(var(--hue),90%,55%);
+	--trans-dur: 0.3s;
 }
 
 [data-theme="dark"] {

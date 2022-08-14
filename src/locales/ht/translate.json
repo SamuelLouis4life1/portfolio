@@ -21,6 +21,9 @@
             "YESHUA": "YESHUA",
             "bibleVerse" : "Verse Biblik"
         },
+        "spinner" : {
+            "welcome": "Un instan! Tout karaktè ap chaje"
+        },
         "about" : {
             "title" : "Sou mwen",
             "subTitle" : "Yon ti kras sou tèt mwen:",
