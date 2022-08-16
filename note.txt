@@ -15,7 +15,6 @@
         https://codepen.io/akshaycodes/pen/XyoVEp
         https://codepen.io/ajerez/pen/XmbQXQ/
 
-
 4)  material ui
     https://mui.com/material-ui/react-button/
 
@@ -32,6 +31,17 @@
 
 7)  animated scroll
     https://oieduardorabelo.medium.com/anima%C3%A7%C3%B5es-de-scroll-em-react-521cc44e9d59
+
+8)  Cards
+    https://codepen.io/codingtuting/pen/XWrBgQz
+    https://codepen.io/andyfought/pen/XWKJJwB
+    https://codepen.io/corvus-007/pen/bGbgPWe
+    https://codepen.io/Jhonierpc/pen/MWgBJpy
+    https://codepen.io/cobra_winfrey/pen/dKMpzO
+    https://codepen.io/Maza-designDev/pen/KKdmyGb
+    https://freefrontend.com/css-cards/
+
+9)  Já ta pago
 
 
 
