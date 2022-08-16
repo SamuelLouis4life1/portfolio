@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
-import '../css/services.css';
-import Testimonial from "./Testimonial"
-import CardServices from "./CardServices"
+import styles from './index.module.css';
+// import Testimonial from "./Testimonial"
+import CardServices from "./cards"
 import { withTranslation } from "react-i18next";
 
 export function Services(props) {
@@ -12,9 +12,9 @@ export function Services(props) {
 
     return (
 
-        <section className="services-setion" id='services'>
+        <section className={styles.servicesSetion} id='services'>
             <h1 className="title">{t("services.title")}</h1>
-                        
+
             <p className="subtitle">{t("services.subTitle")}</p>
 
             <div className="service_container">
@@ -24,7 +24,7 @@ export function Services(props) {
                 <CardServices title={"services.webDesign"} btnLink={t("services.subTitle")} paragraph={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa."} />
             </div>
 
-            <Testimonial/>
+            {/* <Testimonial/> */}
 
         </section>
     );

@@ -87,8 +87,16 @@
             "designer" : "Web designer & developer",
             "frontend" : "Desenvolvedor front-end",
             "backend" : "Desenvolvedor back-end",
-            "barman" : "Garçom/Barman"
-
+            "barman" : "Garçom/Barman",
+            "history" : "HISTÓRICO PROFISSIONAL",
+            "education" : "FORMAÇÃO ACADÊMICA",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL"
         },
         "services" : {
             "title" : "Services",

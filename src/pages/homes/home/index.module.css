@@ -2,7 +2,7 @@
     width: 100wh;
     height: 100vh;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .home .bgImg {

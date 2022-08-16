@@ -44,7 +44,16 @@
   width: calc(100% - 60px);
   height: 400px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .portfolioSetion {
+    height: auto;
+  }
+  
+}
+
 @media screen and (max-width: 718px) {
+
   .owlCarousel .options {
     min-width: 520px;
   }

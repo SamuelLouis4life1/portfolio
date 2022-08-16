@@ -1,15 +1,30 @@
-.experiences-section {
-    width: 100%;
-    height: 100vh;
-    background: #fff !important;
-    z-index: 100;
+.experiencesSection {
+  width: 100%;
+  height: 100vh;
+  background: var(--background-color);
+  position: relative;
+  padding: 30px 160px;
 }
 
-.experiences-description {
-    font-size: 120px;
-    text-align: center;
-    color: black;
-    background: burlywood;
-    z-index: 2;
-    position: absolute;
+.title {
+  margin: 0;
+  color: var(--font-color);
+  font-size: 4rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--font-color);
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .experiencesSection {
+    height: auto;
+  }
+
 }

@@ -1,6 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
-import "../css/cardServices.css";
+import "./cards.css";
 
 export function CardServices(props) {
     const { title, paragraph, btnLink } = props;

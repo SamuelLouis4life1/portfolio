@@ -1,7 +1,7 @@
 import React from "react";
-import TesteFlip from "./FlipCard"
+// import TesteFlip from "./FlipCard"
 import { withTranslation } from "react-i18next";
-import "../css/contact.css"
+import "./index.module.css"
 // import "../js/FlipsAnimations"
 
 export function Contact(props) {
@@ -37,7 +37,7 @@ export function Contact(props) {
           </div>
 
           <div className="contact-email">
-            <TesteFlip></TesteFlip>
+            {/* <TesteFlip></TesteFlip> */}
           </div>
 
         </div>
