@@ -1,9 +1,10 @@
 .aboutSection {
     width: 100wh;
-    height: 100vh;
+    height: auto;
     background: var(--background-color);
     position: relative;
     padding: 0.9rem 3rem 0;
+    margin-bottom: 5rem;
 }
 
 .aboutSection a {
