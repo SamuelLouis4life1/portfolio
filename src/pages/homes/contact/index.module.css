@@ -1,0 +1,104 @@
+.contactSection {
+    width: 100%;
+    height: auto;
+    background: var(--background-color-light);
+    position: relative;
+    padding: 30px;
+    margin-bottom: 5rem;
+  }
+
+  .title {
+    margin: 0;
+	color: var(--font-color);
+	font-size: 4rem;
+	padding-top: 0.5rem;
+	text-align: center;
+}
+
+.subtitle {
+    margin: 0;
+    color: var(--font-color);
+	font-size: 3rem;
+	text-align: center;
+}
+  
+  .contact-header {
+    text-align: center;
+  }
+  
+  .contact-sub-header {
+    text-align: center;
+    margin: 5rem;
+  }
+  
+  .contact-container {
+    align-items: center;
+    display: flex;
+    margin: 4rem;
+    gap: 3rem;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  .form {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem
+  }
+  
+  .contact-option {
+      background: #2c2c6c;
+      padding: 1.2rem;
+      border-radius: 1.2rem;
+      text-align: center;
+      border: 1px solid transparent;
+      transition: all 400ms ease;
+  }
+  
+  .contact-options {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      width: 30%;
+  }
+  
+  .contact-option-email {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      width: 70%;
+      border: 2px solid rgb(247, 119, 119);
+  }
+  
+  .contact-description {
+      font-size: 120px;
+      text-align: center;
+      color: black;
+      background: burlywood;
+      z-index: 2;
+      position: absolute;
+  }
+  
+  .contact-email {
+    margin-left: auto;
+  }
+  
+  .contact-option:hover {
+      background: transparent;
+      /* border-color: var(--color-primary-variant); */
+      border-color: rgb(255, 81, 0);
+  }
+  
+  /* ===================== Media Queries (Medium Devices) ===================== */
+  @media screen and (max-width: 1024px) {
+      .container.contact_container {
+          grid-template-columns: 1fr;
+      }
+  }
+  
+    /* ===================== Media Queries (Small Devices) ===================== */
+  @media screen and (max-width: 600px) {
+      .container.contact_container {
+          width: var(--container-width-sm);
+      }
+  }

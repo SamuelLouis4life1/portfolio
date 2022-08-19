@@ -17,6 +17,8 @@ import english from '../../../pdf/cv_english.pdf';
 import francais from '../../../pdf/cv_creol.pdf';
 import espanol from '../../../pdf/cv_creol.pdf';
 import criolo from '../../../pdf/cv_creol.pdf';
+import { App } from "../../../components/elements/textCarousel/index"
+
 
 // import MyPDFs from '/cv_creol.pdf';
 
@@ -153,9 +155,6 @@ export function About(props) {
               <a id="downloadLink" href="../../../images/cv_creol.pdf" target="_blank" type="application/octet-stream" download>click here</a>
               {/* <a href={download} download="My_File.pdf"> Download Here teste </a> */}
               <a href={download} download="My_File.pdf"> Download Here teste </a>
-
-
-
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 // import TesteFlip from "./FlipCard"
 import { withTranslation } from "react-i18next";
-import "./index.module.css"
+import styles from "./index.module.css"
 // import "../js/FlipsAnimations"
 
 export function Contact(props) {
@@ -10,8 +10,8 @@ export function Contact(props) {
   return (
     <body>
 
-      <section className="contact-section" id="contact" >
-        <h1 className="title">{t("contact.title")}</h1>
+      <section className={styles.contactSection} id="contact" >
+        <h1 className={styles.title}>{t("contact.title")}</h1>
 
         <h4 className="contact-sub-header">{t("contact.description1")}</h4>
 

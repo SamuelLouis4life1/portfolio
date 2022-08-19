@@ -34,7 +34,7 @@ export default function Home() {
                     <Services />
                     <Portfolio />
                     <Contact />
-                    {/* <Footer /> */}
+                    <Footer />
                     {/* <BackToTopButton /> */}
                 </>
             )}
