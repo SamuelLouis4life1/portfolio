@@ -8,6 +8,7 @@ import {
 } from "react-icons/gi";
 import { MdHistoryEdu } from "react-icons/md";
 import { SiMicrosoftacademic } from "react-icons/si";
+import { App } from "../../../components/elements/textCarousel/index"
 
 
 export function Experiences(props) {
@@ -88,6 +89,8 @@ export function Experiences(props) {
                     </div>
                 </div>
             </div>
+
+            <App />
 
         </section>
     );
