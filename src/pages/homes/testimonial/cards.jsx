@@ -1,5 +1,14 @@
 import React from "react";
-import "../css/cardTestimonial.css";
+import "./cards.css";
+import {
+    FaBehanceSquare,
+    FaFacebookSquare,
+    FaGithubSquare,
+    FaInstagramSquare,
+    FaLinkedin,
+    FaTwitterSquare
+} from "react-icons/fa";
+import Buton from "../../../components/elements/socialMedia/index"
 
 export function CardTestimonial(props) {
     const { img, name, title, description, facebookLink, twitterLink, linkedinLink, instagramLink, githubLink } = props;
@@ -19,11 +28,17 @@ export function CardTestimonial(props) {
                             <p className="description">{`${description}`}</p>
                         </div>
                         <ul className="social">
-                            <li><a href={`${instagramLink}`} className="fa fa-instagram" aria-hidden="true"></a></li>
+                            <li><a href={`${instagramLink}`}  aria-hidden="true"><Buton /></a></li>
+                            {/* <li><a href={`${facebookLink}`}  aria-hidden="true"><FaFacebookSquare /></a></li>
+                            <li><a href={`${twitterLink}`}  aria-hidden="true"><FaInstagramSquare /></a></li>
+                            <li><a href={`${linkedinLink}`}  aria-hidden="true"><FaLinkedin /></a></li>
+                            <li><a href={`${githubLink}`}  aria-hidden="true"><FaTwitterSquare /></a></li> */}
+{/* 
+                            <li><a href={`${instagramLink}`} className="fa fa-instagram" aria-hidden="true"><FaBehanceSquare /></a></li>
                             <li><a href={`${facebookLink}`} className="fa fa-facebook" aria-hidden="true"></a></li>
                             <li><a href={`${twitterLink}`} className="fa fa-twitter" aria-hidden="true"></a></li>
                             <li><a href={`${linkedinLink}`} className="fa fa-linkedin" aria-hidden="true"></a></li>
-                            <li><a href={`${githubLink}`} className="fa fa-github" aria-hidden="true"></a></li>
+                            <li><a href={`${githubLink}`} className="fa fa-github" aria-hidden="true"></a></li> */}
                         </ul>
                     </div>
                 </div>
