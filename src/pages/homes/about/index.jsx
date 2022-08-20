@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./index.module.css";
-// import "../css/button.css";
 import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap"
-import { Container } from "react-bootstrap";
 import AboutImg from "../../../images/logo.png";
 import { HashLink } from 'react-router-hash-link';
 
@@ -16,34 +14,27 @@ import francais from '../../../pdf/cv_creol.pdf';
 import espanol from '../../../pdf/cv_creol.pdf';
 import criolo from '../../../pdf/cv_creol.pdf';
 import { FaDownload } from "react-icons/fa";
+import { AboutTypewriter } from "../../../components/elements/typeWriter/index"
 
 export default function About(props) {
   const { ts, i18n } = useTranslation();
   const { t } = i18n;
 
-  // (function () {
-  //   var words = ["Fullstack Developer", "Developer"],
-  //     i = 0;
-  //   setInterval(function () {
-  //     $('#words').fadeOut(function () {
-  //       $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-  //     });
-  //   }, 5000)
-  // })();
-
   return (
     <>
       {/* <SmoothList visible="true"> */}
-      {/* <Container fluid padding="0%"> */}
       <section id="about" className={styles.aboutSection}>
         <h1 className={styles.title}>{t("about.title")}</h1>
 
         <div className={styles.aboutContainer}>
 
           <div className={styles.aboutLeftContents}>
-            {/* <div class={styles.aboutImg}></div> */}
-            <img src={AboutImg} alt="" />
-            <p id="words" className={styles.aboutImgTitle}>{t("about.bigText2")}</p>
+            <div class={styles.aboutImg}></div>
+            <div>
+
+              <p id="words" className={styles.aboutImgTitle}><AboutTypewriter /></p>
+
+            </div>
             <p className={styles.aboutImgSubTitle}>{t("about.bigText5")}<Link to={"/sampeurs"} className="link">{("sampeurs")}</Link></p>
           </div>
 
@@ -72,8 +63,6 @@ export default function About(props) {
       </section>
 
       {/* </SmoothList> */}
-
-      {/* </Container> */}
     </>
   );
 }

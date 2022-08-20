@@ -41,6 +41,19 @@
     https://codepen.io/Maza-designDev/pen/KKdmyGb
     https://freefrontend.com/css-cards/
 
+9)  Type writer
+    https://codesandbox.io/s/react-text-typing-effect-in-infinite-loop-hooks-rycur?file=/src/index.js:0-120
+    https://www.npmjs.com/package/react-typist
+
+    https://codesandbox.io/s/react-simple-typewriter-uj8ix?fontsize=14&hidenavigation=1&theme=dark&file=/src/App.tsx
+    https://github.com/awran5/react-simple-typewriter
+
+    https://codesandbox.io/s/xp1z8
+    https://codesandbox.io/s/dseb3z
+    https://www.npmjs.com/package/typewriter-effect
+    https://codesandbox.io/s/react-typewriter-effect-rdis2
+    https://bestofreactjs.com/repo/kevoese-react-typewriter-effect-react-ui-animation
+
 9)  Já ta pago
 
 
