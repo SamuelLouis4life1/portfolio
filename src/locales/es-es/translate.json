@@ -77,9 +77,70 @@
             "machine" : "Aprendizaje automático"
         },
         "experiences" : {
-            "description" : " Descrição experiences es"
+            "title" : "Experiences",
+            "subTitle" : "Experiences",
+            "designer" : "Web designer & developer",
+            "frontend" : "Desenvolvedor front-end",
+            "backend" : "Desenvolvedor back-end",
+            "barman" : "Garçom/Barman",
+            "history" : "HISTÓRICO PROFISSIONAL",
+            "education" : "FORMAÇÃO ACADÊMICA",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL",
+            "" : "HISTÓRICO PROFISSIONAL"
         },
         "services" : {
+            "description" : " Descrição experiences es",
+            "subtitle" : "Construyamos algo grandioso...",
+            "letTalk": "Construyamos algo grandioso...",
+            "webDeveloper": "Puedo construir su sitio web o modificar, actualizar sus sitios web existentes de acuerdo con sus necesidades o sus especificaciones. También puedo incluir su diseño de sitios web, así como los marcos utilizados para entregar el contenido que se mostrará en su sitio .",
+            "webDesign": "Puedo ayudarlo a idear, definir las soluciones exactas para el diseño preciso de wireframes de alta fidelidad, maquetas, usabilidad, función e incluso marca y marketing. Crear el flujo y la estructura del sitio web. Renderizar mínimamente viable para su sitio web. o haga que su sitio web existente se vea bien con un diseño intuitivo para que los visitantes naveguen fácilmente",
+            "appDeveloper": "Puedo ayudarlo a idear desde cero o modificar, actualizar su aplicación existente de acuerdo con sus necesidades. Tome decisiones estilísticas, desde colores hasta fuentes, también use las opciones de los diseñadores basadas en la investigación de los usuarios y los comentarios de mis experiencias para que su aplicación se vea bien y es fácil de usar.",
+            "appDesign": "Puedo ayudarlo a idear, definir las soluciones exactas para el diseño preciso de wireframes de alta fidelidad, maquetas, usabilidad, función e incluso marca y marketing. Cree el flujo y la estructura de los teléfonos inteligentes y las tabletas. Renderice mínimamente viable para su App. o haga que su aplicación existente se vea bien con un diseño intuitivo para que los visitantes naveguen fácilmente",
+            "titleWebdeveloper" : "Desarrollador web",
+            "titleWebDesign" : "Diseñador web",
+            "titleAppDeveloper" : "Desarrollador de aplicaciones",
+            "titleAppDesign" : "Diseño de aplicaciones",
+            "btns": "Empecemos..."
+        },
+        "testimonial" : {
+            "title" : "Testimonial",
+            "subTitle" : "What people is saying about me",
+
+            "user1Name" : "Alana Tereza Rebeca Campos",
+            "user1Title" : "Copmputer engineer",
+            "user1Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+
+            "user2Name" : "Brenda Larissa Baptista",
+            "user2Title" : "Budget officer",
+            "user2Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+
+            "user3Name" : "Antonio Martin Theo Monteiro",
+            "user3Title" : "Die maker",
+            "user3Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+            
+            "user4Name" : "Kaique Felipe Almada",
+            "user4Title" : "Economist",
+            "user4Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+            
+            "user5Name" : "Sérgio Emanuel Nogueira",
+            "user5Title" : "Sewing machine operator",
+            "user5Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+
+            "user6Name" : "Alícia Pietra Lima",
+            "user6Title" : "Plant scientist",
+            "user6Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct.",
+            
+            "user7Name" : "Valentina Sophie Drumond",
+            "user7Title" : "Software engineer",
+            "user7Description" : "Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of. Called square an in afraid direct."
+
+        },
+        "portfolio" : {
             "title" : "Portfolio",
             "subTitle" : "Portfolio",
             "csharpProject" : "Proyecto C-Sharp",
@@ -95,8 +156,20 @@
             "prototypingProject" : "Proyecto de creación de prototipos",
             "prototypingProjectDes": "Prototipando un sitio web y un proyecto de aplicación..."
         },
-        "portfolio" : {
-            "description" : " Descrição portfolio es"
+        "sayings" : {
+            "title" : "Sayings",
+            "writer1" : "Fiverr Clint",
+            "sayings1" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer2" : "Fiverr Clint",
+            "sayings2" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer3" : "Fiverr Clint",
+            "saying3" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer4" : "Fiverr Clint",
+            "saying4" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer5" : "Fiverr Clint",
+            "saying5" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing.",
+            "writer6" : "Fiverr Clint",
+            "saying6" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing."
         },
         "contact" : {
             "title" : "Contácta me",

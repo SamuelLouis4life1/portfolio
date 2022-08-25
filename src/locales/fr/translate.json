@@ -80,7 +80,18 @@
             "description" : "description experiences fr"
         },
         "services" : {
-            "description" : "description services fr"
+            "description" : "description services fr",
+            "subtitle": "Construisons quelque chose de grand...",
+            "letTalk": "Construisons quelque chose de grand...",
+            "webDeveloper": "Je peux construire votre site web ou modifier, mettre à jour vos sites web existants selon vos besoins ou votre cahier des charges. Je peux également inclure sa mise en page de sites web, ainsi que les frameworks utilisés pour délivrer le contenu qui sera affiché sur votre site .",
+            "webDesign": "Je peux vous aider à imaginer, définir les solutions d'exate pour la conception précise de wireframes hi-fi, les maquettes, la convivialité, la fonction et même l'image de marque et le marketing. Créer le flux et la structure du site Web. Rendre minimalement viable pour votre site Web. ou donnez une belle apparence à votre site Web existant avec une conception intuitive pour que les visiteurs puissent naviguer facilement.",
+            "appDeveloper": "Je peux vous aider à créer des idées à partir de zéro ou à modifier, mettre à jour votre application existante en fonction de vos besoins. Faites des choix stylistiques, des couleurs aux polices, utilisez également les choix de base des concepteurs sur la recherche des utilisateurs et les commentaires de mes expériences pour rendre votre application agréable et est facile à utiliser.",
+            "appDesign": "Je peux vous aider à imaginer, définir les solutions d'exate pour la conception précise de wireframes hi-fi, les maquettes, la convivialité, la fonction et même l'image de marque et le marketing. Créez le flux et la structure des smartphones et des tablettes. Rendre minimalement viable pour votre ou donnez à votre application existante une belle apparence grâce à un design intuitif pour que les visiteurs puissent naviguer facilement.",
+            "titleWebdeveloper": "Développeur Web",
+            "titleWebDesign": "Concepteur Web",
+            "titleAppDeveloper": "Développeur d'applications",
+            "titleAppDesign": "Conception d'applications",
+            "btns": "Commençons..."
         },
         "portfolio" : {
             "title" : "Portfolio",

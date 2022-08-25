@@ -77,7 +77,18 @@
             "machine" : "Aprantisaj otomatik"
         },
         "experiences" : {
-            "description" : "deskripsyon experiences"
+            "description" : "deskripsyon experiences",
+            "subtitle" : "Ann konstwi yon bagay gwo...",
+            "letTalk": "Ann konstwi yon bagay gwo...",
+            "webDeveloper": "Mwen ka bati sit entènèt ou oswa modifye, mete ajou sit entènèt ki egziste deja yo dapre bezwen ou oswa espesifikasyon ou yo. Mwen kapab tou enkli layout sit entènèt li yo, ansanm ak kad yo itilize pou delivre kontni an ki pral parèt sou sit ou a. .",
+            "webDesign": "Mwen ka ede w ide, defini solisyon egzat pou konsepsyon wireframes hi-fi egzat, mockups, itilizasyon, fonksyon, e menm mak ak maketing. Kreye koule ak estrikti sit entènèt la. Rann yon minimòm solid pou sit entènèt ou a. oswa fè sit entènèt ki egziste deja ou an gade byen ak konsepsyon entwisyon pou vizitè yo navige fasil.",
+            "appDeveloper": "Mwen ka ede w ide nan grafouyen oswa modifye, aktyalize Aplikasyon ki egziste deja ou a selon bezwen ou yo. Fè chwa stilistik soti nan koulè ak polis tou itilize konsèpteur chwa baz sou rechèch itilizatè yo ak fidbak nan eksperyans mwen fè aplikasyon ou a sanble bèl. epi li fasil pou itilize.",
+            "appDesign": "Mwen ka ede w ide, defini solisyon egzat pou konsepsyon egzat wireframes hi-fi, mockups, itilizasyon, fonksyon, e menm mak ak maketing. Kreye koule ak estrikti smartphones ak tablèt yo. Rann yon minimòm solid pou ou. Aplikasyon oswa fè aplikasyon ou ki egziste deja parèt bon ak konsepsyon entwisyon pou vizitè yo navige fasil.",
+            "titleWebdeveloper" : "Devlopè entènèt",
+            "titleWebDesign" : "Web Designer",
+            "titleAppDeveloper" : "Devlopè aplikasyon",
+            "titleAppDesign" : "App Design",
+            "btns": "Ann kòmanse..."
         },
         "services" : {
             "description" : "deskripsyon services"

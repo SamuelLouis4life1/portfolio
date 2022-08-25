@@ -80,7 +80,19 @@
             "description" : " description experiences"
         },
         "services" : {
-            "description" : " description services"
+            "description" : "description services",
+            "subtitle" : "Let's build something great...",
+            "letTalk": "Let's build something great...",
+            "webDeveloper": "I can build your website or modifying, updating your existing websites according to your needs or your specifications. I can also Including its layout of websites, as well as frameworks used to deliver the content that will be displayed on your site.",
+            "webDesign": "I can help you ideate, define the exate  solutions to accurate hi-fi wireframes design, mockups, usability, function, and even branding and marketing. Create the website's flow and structure. Render minimally viable for your website. or make your existing website look good with intuitive design for visitors to navigate easily.",
+            "appDeveloper": "I can help you ideate from scratch or modifying, updating your existing App according to your needs. Make stylistic choices from colors to fonts also use designers base choices on user research and feedback from my experiences to make your app looks nice and is easy to use.",
+            "appDesign": "I can help you ideate, define the exate  solutions to accurate hi-fi wireframes design, mockups, usability, function, and even branding and marketing. Create the smartphones and tablets' flow and structure. Render minimally viable for your App. or make your existing App look good with intuitive design for visitors to navigate easily.",
+            "titleWebdeveloper" : "Web Developper",
+            "titleWebDesign" : "Web Designer",
+            "titleAppDeveloper" : "App Developer",
+            "titleAppDesign" : "App Design",
+            "btns": "Let's started..."
+
         },
         "portfolio" : {
             "title" : "Portfolio",

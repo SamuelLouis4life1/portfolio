@@ -102,15 +102,17 @@
         },
         "services" : {
             "title" : "Services",
-            "subTitle" : "Let's build something great...",
-            "dataAnalytics" : "Data Analytics",
-            "webDesign" : "Web Developper",
-            "uiUxApp" : "UI/UX App design",
-            "uiUxWeb" : "UI/UX Web design",
-            "designer" : "Web designer",
-            "frontend" : "Desenvolvedor front-end",
-            "backend" : "Desenvolvedor back-end",
-            "barman" : "Garçom/Barman"
+            "subtitle" : "Vamos construir algo ótimo...",
+            "letTalk": "Vamos construir algo ótimo...",
+            "webDeveloper": "Posso construir ou modificar seu site, atualizando seus sites existentes de acordo com suas necessidades ou suas especificações. Também posso incluir seu layout de sites, bem como frameworks usados ​​para entregar o conteúdo que será exibido em seu site .",
+            "webDesign": "Posso ajudá-lo a idealizar, definir as soluções exatas para design preciso de wireframes de alta fidelidade, maquetes, usabilidade, função e até branding e marketing. Crie o fluxo e a estrutura do site. Renderize minimamente viável para o seu site. ou faça com que seu site existente tenha uma boa aparência com um design intuitivo para que os visitantes naveguem facilmente.",
+            "appDeveloper": "Posso ajudá-lo a idealizar do zero ou modificar, atualizando seu aplicativo existente de acordo com suas necessidades. Faça escolhas estilísticas de cores a fontes e use as escolhas de designers com base em pesquisas de usuários e feedback de minhas experiências para tornar seu aplicativo bonito e é fácil de usar.",
+            "appDesign": "Posso ajudá-lo a idealizar, definir as soluções exatas para design preciso de wireframes de alta fidelidade, maquetes, usabilidade, função e até branding e marketing. Crie o fluxo e a estrutura dos smartphones e tablets. Renderize minimamente viável para o seu ou faça com que seu aplicativo existente tenha uma boa aparência com um design intuitivo para que os visitantes naveguem facilmente.",
+            "titleWebdeveloper" : "Desenvolvedor Web",
+            "titleWebDesign" : "Web Designer",
+            "titleAppDeveloper" : "Desenvolvedor de aplicativos",
+            "titleAppDesign" : "Design de aplicativo",
+            "btns": "Vamos começar..."
         },
         "testimonial" : {
             "title" : "Testimonial",
