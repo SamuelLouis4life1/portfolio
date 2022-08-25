@@ -16,13 +16,13 @@ export function Services(props) {
         <section className={styles.servicesSetion} id='services'>
             <h1 className={styles.title}>{t("services.title")}</h1>
 
-            <p className={styles.subtitle}>{t("services.subTitle")}</p>
+            <p className={styles.subtitle}>{t("services.subtitle")}</p>
 
             <div className={styles.serviceContainer}>
-                <CardServices title={t("services.designer")} btnLink={t("services.subTitle")} paragraph={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa."} />
-                <CardServices title={t("services.uiUxApp")} btnLink={t("services.subTitle")} paragraph={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa."} />
-                <CardServices title={t("services.uiUxWeb")} btnLink={t("services.subTitle")} paragraph={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa."} />
-                <CardServices title={t("services.webDesign")} btnLink={t("services.subTitle")} paragraph={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa."} />
+                <CardServices title={t("services.titleWebdeveloper")} btnLink={t("services.btns")} paragraph={t("services.webDeveloper")} />
+                <CardServices title={t("services.titleWebDesign")} btnLink={t("services.btns")} paragraph={t("services.webDesign")}/>
+                <CardServices title={t("services.titleAppDeveloper")} btnLink={t("services.btns")} paragraph={t("services.appDeveloper")} />
+                <CardServices title={t("services.titleAppDesign")} btnLink={t("services.btns")} paragraph={t("services.appDesign")} />
             </div>
 
             <Testimonial/>

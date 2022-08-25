@@ -1,6 +1,6 @@
 import React from "react";
-// import ReactDOM from "react-dom";
 import "./cards.css";
+import { HashLink } from 'react-router-hash-link';
 
 export function CardServices(props) {
     const { title, paragraph, btnLink } = props;
@@ -14,7 +14,7 @@ export function CardServices(props) {
             <div className="card-content">
                 <h2 className="card-title">{`${title}`}</h2>
                 <p className="card-body">{`${paragraph}`}</p>
-                <a href="#" className="button">{`${btnLink}`}</a>
+                <a href="#" className="button"><HashLink to="/#contact" className="link">{`${btnLink}`}</HashLink></a>
             </div>
         </div>
     )
