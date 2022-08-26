@@ -86,7 +86,7 @@
 }
 
 .dropdown-menu {
-    background-color: var(--background-color);
+    background-color: var(--background-color) !important;
 }
 
 .dropdown, .dropup {
@@ -106,7 +106,7 @@
     font-size: 14px;
     text-align: left;
     list-style: none;
-    background-color: var(--font-color-color); 
+    background-color: var(--background-color) !important; 
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0,0,0,.15);

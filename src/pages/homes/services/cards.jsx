@@ -1,6 +1,7 @@
 import React from "react";
 import "./cards.css";
 import { HashLink } from 'react-router-hash-link';
+import { useTranslation } from "react-i18next";
 
 export function CardServices(props) {
     const { title, paragraph, btnLink } = props;
@@ -14,9 +15,20 @@ export function CardServices(props) {
             <div className="card-content">
                 <h2 className="card-title">{`${title}`}</h2>
                 <p className="card-body">{`${paragraph}`}</p>
-                <a href="#" className="button"><HashLink to="/#contact" className="link">{`${btnLink}`}</HashLink></a>
+                <ContactMe />
             </div>
         </div>
     )
 }
 export default CardServices;
+
+function ContactMe() {
+    const { ts, i18n } = useTranslation();
+    const { t } = i18n;
+  
+    return (
+      <div className="hover"><span>{t("about.contactBtn")}</span>
+        <a> <HashLink to="/#contact" className="link"> {t("about.contactBtn")} </HashLink></a>
+      </div>
+    )
+  }

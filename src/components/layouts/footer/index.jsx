@@ -18,7 +18,7 @@ export function Footer() {
                     <img className={styles.footerImg} src={FooterLogo} alt="" />
                 </div>
 
-                <div className="footer-right-reserve footer-items">
+                <div className={`${styles.footerRightReserve} ${styles.footerItems}`}>
                     <p class="copyright-text">Copyright &copy; {date} All Rights Reserved by <a href="#">Samuel Louis Sampeur</a>.</p>
                 </div>
 

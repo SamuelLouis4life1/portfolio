@@ -85,9 +85,9 @@
     display: grid !important;
 }
 
-.dropdown-menu {
-    background-color: var(--background-color);
-}
+/* .dropdown-menu {
+    background-color: var(--background-color) !important;
+} */
 
 .dropdown, .dropup {
     position: relative;
@@ -106,7 +106,6 @@
     font-size: 14px;
     text-align: left;
     list-style: none;
-    background-color: var(--font-color-color); 
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0,0,0,.15);

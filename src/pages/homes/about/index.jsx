@@ -112,7 +112,7 @@ function CVButton(props) {
       {console.log("langDown2", props.language)}
       {console.log("langDown1", download)}
 
-      <div class={styles.hover}><span>{t("about.aboutMeCv")}</span>
+      <div className={styles.hover}><span>{t("about.aboutMeCv")}</span>
         <a href={download} download="Samuel Louis's CV.pdf"> <FaDownload />{t("about.aboutBtnCv")}</a>
       </div>
     </>
@@ -124,7 +124,7 @@ function ContactMe() {
   const { t } = i18n;
 
   return (
-    <div class={styles.hover}><span>{t("about.contactBtn")}</span>
+    <div className={styles.hover}><span>{t("about.contactBtn")}</span>
       <a> <HashLink to="/#contact" className="link"> {t("about.contactBtn")} </HashLink></a>
     </div>
   )
