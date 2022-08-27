@@ -1,6 +1,7 @@
 import React from "react";
 // import TesteFlip from "./FlipCard"
 import { withTranslation } from "react-i18next";
+import ContactForm from "./form";
 import styles from "./index.module.css"
 // import "../js/FlipsAnimations"
 
@@ -15,7 +16,7 @@ export function Contact(props) {
 
         <h4 className="contact-sub-header">{t("contact.description1")}</h4>
 
-        <div className="container contact-container">
+        <div className={styles.contactContainer}>
 
           <div className="contact-options">
             <div className="contact-option">
@@ -37,6 +38,7 @@ export function Contact(props) {
           </div>
 
           <div className="contact-email">
+            <ContactForm />
             {/* <TesteFlip></TesteFlip> */}
           </div>
 

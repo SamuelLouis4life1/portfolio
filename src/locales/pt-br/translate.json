@@ -198,7 +198,7 @@
             "optionAppDesign" : "Design de aplicativo",
             "optionwebDeveloper" : "Desenvolvedor Web",
             "optionWebDesign" : "Web Design",
-            "optionOutro" : "Outros",
+            "optionOther" : "Outros",
             "placeholderName" : "Nome",
             "placeholderSurname" : "Sobrenome",
             "placeholderEmail" : "E-mail",
