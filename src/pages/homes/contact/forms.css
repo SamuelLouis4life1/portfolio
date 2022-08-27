@@ -105,6 +105,7 @@ select::-ms-expand {
 }
 
 .rights-request-form *:required {
+    border: 1px solid rgb(235, 68, 56);
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
 }
 

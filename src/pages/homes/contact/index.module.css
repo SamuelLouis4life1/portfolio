@@ -4,7 +4,6 @@
   background: var(--background-color-light);
   position: relative;
   padding: 30px;
-  /* margin-bottom: 5rem; */
 }
 
 .title {
@@ -46,8 +45,8 @@
   gap: 1.5rem
 }
 
-.contact-option {
-  background: #2c2c6c;
+.contactOption {
+  background: rgb(235, 68, 56);;
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -55,14 +54,14 @@
   transition: all 400ms ease;
 }
 
-.contact-options {
+.contactOptions {
+
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  width: 30%;
 }
 
-.contact-option-email {
+.contactOption-email {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -79,11 +78,7 @@
   position: absolute;
 }
 
-.contact-email {
-  margin-left: auto;
-}
-
-.contact-option:hover {
+.contactOption:hover {
   background: transparent;
   /* border-color: var(--color-primary-variant); */
   border-color: rgb(255, 81, 0);
@@ -98,7 +93,6 @@
 
 /* ===================== Media Queries (Small Devices) ===================== */
 @media screen and (max-width: 700px) {
-
   .contactContainer {
     display: flex;
     flex-direction: column;

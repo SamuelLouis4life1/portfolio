@@ -18,26 +18,26 @@ export function Contact(props) {
 
         <div className={styles.contactContainer}>
 
-          <div className="contact-options">
-            <div className="contact-option">
+          <div className={styles.contactOptions}>
+            <div className={styles.contactOption}>
               <h4>Email</h4>
               <h5>sampeur4life1@gmail.com</h5>
               <a href="mailto:sampeur4life1@gmail.com" target="_blank">{t("contact.contactEmail")}</a>
             </div>
-            <div className="contact-option">
+            <div className={styles.contactOption}>
               <h4>Whatsapp</h4>
               <h5>+5521987722151</h5>
               <a href="mailto:sampeur4life1@gmail.com" target="_blank">{t("contact.contactWhatsapp")}</a>
 
             </div>
-            <div className="contact-option">
+            <div className={styles.contactOption}>
               <h4>Messenger</h4>
               <h5>Messenger Sampeur</h5>
               <a href="mailto:sampeur4life1@gmail.com" target="_blank">{t("contact.requiredMessenger")}</a>
             </div>
           </div>
 
-          <div className="contact-email">
+          <div className={styles.contactEmail}>
             <ContactForm />
             {/* <TesteFlip></TesteFlip> */}
           </div>
