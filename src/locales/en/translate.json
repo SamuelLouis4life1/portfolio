@@ -91,7 +91,7 @@
             "titleWebDesign" : "Web Designer",
             "titleAppDeveloper" : "App Developer",
             "titleAppDesign" : "App Design",
-            "btns": "Let's started..."
+            "btns": "Project request"
 
         },
         "portfolio" : {
@@ -123,10 +123,13 @@
         "contactForm" : {
             "title" : "Get in touch!",
             "selectedOption" : "-- Please choose an option --",
-            "option1" : "Send a Feedback",
-            "option2" : "Send Resume",
-            "option3" : "Other",
-            "option4" : "Other",
+            "optionFeedback" : "Send a Feedback",
+            "optionResume" : "Send Resume",
+            "optionAppDeveloper" : "App Developer",
+            "optionAppDesign" : "App Design",
+            "optionwebDeveloper" : "Web Developer",
+            "optionWebDesign" : "Web Design",
+            "optionOther" : "Other",
             "placeholderName" : "Name",
             "placeholderSurname" : "Surname",
             "placeholderEmail" : "Email",

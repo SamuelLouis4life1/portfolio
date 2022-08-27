@@ -91,7 +91,7 @@
             "titleWebDesign": "Concepteur Web",
             "titleAppDeveloper": "Développeur d'applications",
             "titleAppDesign": "Conception d'applications",
-            "btns": "Commençons..."
+            "btns": "Demande de projet"
         },
         "portfolio" : {
             "title" : "Portfolio",
@@ -122,10 +122,13 @@
         "contactForm" : {
             "title" : "Contactez-moi!",
             "selectedOption" : "-- Veuillez choisir une option --",
-            "option1" : "Envoyer un commentaire",
-            "option2" : "Envoyer CV",
-            "option3" : "Autre",
-            "option4" : "Autre",
+            "optionFeedback" : "Envoyer un commentaire",
+            "optionResume" : "Envoyer le CV",
+            "optionAppDeveloper" : "Développeur d'applications",
+            "optionAppDesign" : "Conception d'applications",
+            "optionwebDeveloper" : "Développeur Web",
+            "optionWebDesign" : "Conception Web",
+            "optionAutre" : "Autre",
             "placeholderName" : "Nom",
             "placeholderSurname" : "Nom de famille",
             "placeholderEmail" : "Email",

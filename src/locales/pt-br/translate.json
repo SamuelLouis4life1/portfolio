@@ -112,7 +112,7 @@
             "titleWebDesign" : "Web Designer",
             "titleAppDeveloper" : "Desenvolvedor de App",
             "titleAppDesign" : "Design de aplicativo",
-            "btns": "Vamos começar..."
+            "btns": "Solicitação de projeto"
         },
         "testimonial" : {
             "title" : "Testimonial",
@@ -192,10 +192,13 @@
         "contactForm" : {
             "title" : "Entre em contato!",
             "selectedOption" : "-- Por favor, escolha uma opção --",
-            "option1" : "Enviar um feedback",
-            "option2" : "Enviar currículo",
-            "option3" : "Outro",
-            "option4" : "Outro",
+            "optionFeedback" : "Enviar um feedback",
+            "optionResume": "Enviar currículo",
+            "optionAppDeveloper" : "Desenvolvedor de aplicativos",
+            "optionAppDesign" : "Design de aplicativo",
+            "optionwebDeveloper" : "Desenvolvedor Web",
+            "optionWebDesign" : "Web Design",
+            "optionOutro" : "Outros",
             "placeholderName" : "Nome",
             "placeholderSurname" : "Sobrenome",
             "placeholderEmail" : "E-mail",

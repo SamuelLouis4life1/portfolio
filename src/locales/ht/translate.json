@@ -88,7 +88,7 @@
             "titleWebDesign" : "Web Designer",
             "titleAppDeveloper" : "Devlopè aplikasyon",
             "titleAppDesign" : "App Design",
-            "btns": "Ann kòmanse..."
+            "btns": "Demann pwojè"
         },
         "services" : {
             "description" : "deskripsyon services"
@@ -122,10 +122,13 @@
         "contactForm" : {
             "title" : "Kontakte m",
             "selectedOption" : "-- Tanpri chwazi yon opsyon --",
-            "option1" : "Voye yon Feedback",
-            "option2" : "Voye rezime",
-            "option3" : "Lòt",
-            "option4" : "Other",
+            "optionFeedback" : "Voye yon Feedback",
+            "optionResume" : "Voye rezime",
+            "optionAppDeveloper" : "Devlopè aplikasyon",
+            "optionAppDesign" : "App Design",
+            "optionwebDeveloper" : "Devlopè entènèt",
+            "optionWebDesign" : "Konsepsyon entènèt",
+            "optionOther" : "Lòt",
             "placeholderName" : "Non",
             "placeholderSurname" : "Ti non",
             "placeholderEmail" : "Imèl",
