@@ -77,7 +77,7 @@ select::-ms-expand {
 
 .rights-request-form button {
     width: 70% !important;
-    background-color: rgb(235, 68, 56);;
+    background-color: rgb(235, 68, 56);
     color: white;
 }
 
@@ -88,7 +88,7 @@ select::-ms-expand {
 }
 
 .rights-request-form button:enabled:hover {
-    background-color: #26aae2;
+    background-color: rgb(235, 68, 56);
 }
 
 .rights-request-form select:focus,

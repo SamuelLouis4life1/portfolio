@@ -12,23 +12,27 @@ export function Services(props) {
     // btnExample = {{t("services.title")}
 
     return (
+        <>
+            <section className={styles.servicesSetion} id='services'>
+                <h1 className={styles.title}>{t("services.title")}</h1>
 
-        <section className={styles.servicesSetion} id='services'>
-            <h1 className={styles.title}>{t("services.title")}</h1>
+                <p className={styles.subtitle}>{t("services.subtitle")}</p>
 
-            <p className={styles.subtitle}>{t("services.subtitle")}</p>
+                <div className={styles.serviceContainer}>
+                    <CardServices title={t("services.titleWebdeveloper")} btnLink={t("services.btns")} paragraph={t("services.webDeveloper")} />
+                    <CardServices title={t("services.titleWebDesign")} btnLink={t("services.btns")} paragraph={t("services.webDesign")} />
+                    <CardServices title={t("services.titleAppDeveloper")} btnLink={t("services.btns")} paragraph={t("services.appDeveloper")} />
+                    <CardServices title={t("services.titleAppDesign")} btnLink={t("services.btns")} paragraph={t("services.appDesign")} />
+                </div>
 
-            <div className={styles.serviceContainer}>
-                <CardServices title={t("services.titleWebdeveloper")} btnLink={t("services.btns")} paragraph={t("services.webDeveloper")} />
-                <CardServices title={t("services.titleWebDesign")} btnLink={t("services.btns")} paragraph={t("services.webDesign")}/>
-                <CardServices title={t("services.titleAppDeveloper")} btnLink={t("services.btns")} paragraph={t("services.appDeveloper")} />
-                <CardServices title={t("services.titleAppDesign")} btnLink={t("services.btns")} paragraph={t("services.appDesign")} />
-            </div>
+                <Testimonial />
+            </section>
+        </>
 
-            <Testimonial/>
-
-        </section>
     );
 }
 
 export default withTranslation()(Services);
+
+
+
