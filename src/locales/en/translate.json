@@ -77,7 +77,28 @@
             "machine" : "Machine Learning"
         },
         "experiences" : {
-            "description" : " description experiences"
+            "title" : "Experiences",
+            "subTitle" : "Experiences",
+            "designer" : "Web designer and developer",
+            "frontend" : "Developing the frontend",
+            "backend" : "Developing the backend",
+            "barman" : "Waiter/Barman",
+            "professionalHistory" : "PROFESSIONAL HISTORY",
+            "academicAducation" : "ACADEMIC TRAINING",
+            "marriottHotel" : "Marriott Olympic Park Hotel - Bartender",
+            "marriottHotelDate" : "(06/2016 to 11/2019 - 11/2020 to )",
+            "mundivox" : "MUNDIVOX - Internship",
+            "mundivoxDate" : "(02/2020 to 04/2020)",
+            "sheraton" : "Sheraton Grand Rio/Marriott - Attendant",
+            "sheratonDate" : "11/2020 to 03/2021",
+            "telecall" : "Telecall - Full Stack Developer",
+            "telecallDate" : "Today",
+            "windsorSchool" : "Windsor School - Bartender",
+            "windsorSchoolDate" : "2016",
+            "levelingCourses" : "Computing Leveling Courses - Udemy",
+            "levelingCoursesDate" : "In my spare time",
+            "computerEngineering" : "Software/Computer Engineering - Instituto INFNET",
+            "computerEngineeringDate" : "(07/2016 to today)"
         },
         "services" : {
             "description" : "description services",

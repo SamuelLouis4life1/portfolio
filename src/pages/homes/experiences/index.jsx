@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './index.module.css'
 import "./experiences.css"
 import { withTranslation } from "react-i18next";
-import {
-    GiStarFormation,
-    GiVendingMachine
-} from "react-icons/gi";
 import { MdHistoryEdu } from "react-icons/md";
 import { SiMicrosoftacademic } from "react-icons/si";
 import { App } from "../../../components/elements/textCarousel/index"
@@ -20,71 +16,66 @@ export function Experiences(props) {
             <h1 className="title">{t("experiences.title")} </h1>
 
             <div class="container">
-                <div class="card">
+                <div class="cards-experiences">
                     <div class="face face1">
                         <div class="content">
                             <MdHistoryEdu />
                             {/* <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" /> */}
-                            <h3>{t("experiences.history")}</h3>
+                            <h3>{t("experiences.profissionalHistory")}</h3>
                         </div>
                     </div>
                     <div class="face face2">
                         <div class="content">
                             <div>
-                                <input type="checkbox" class="read-more-state" id="post-2" />
+                                <input type="checkbox" class="read-more-state-academic-aducation" id="post-2" />
 
-                                <ul class="read-more-wrap">
-                                    <li><p><span className="bold-text">Hotel Marriott Parque Olímpico - Barman</span></p></li>
-                                    <li class="read-more-target"><p><span className="bold-text">(06/2016 até 11/2019)</span></p></li>
+                                <ul class="read-more-wrap-academic-aducation">
+                                    <li><p><span className="bold-text">{t("experiences.marriottHotel")}</span></p></li>
+                                    <li class="read-more-target-academic-aducation"><p><span className="bold-text">{t("experiences.marriottHotelDate")}</span></p></li>
 
-                                    <li><p><span className="bold-text">MUNDIVOX - Estágio</span></p></li>
-                                    <li class="read-more-target"><p><span className="bold-text">(02/2020 até 04/2020)</span></p></li>
+                                    <li><p><span className="bold-text">{t("experiences.mundivox")}</span></p></li>
+                                    <li class="read-more-target-academic-aducation"><p><span className="bold-text">{t("experiences.mundivoxDate")}</span></p></li>
 
-                                    <li><p><span className="bold-text">Sheraton Grand Rio - Atendente</span></p></li>
-                                    <li class="read-more-target"><p><span className="bold-text">até (12/2020)</span></p></li>
+                                    <li><p><span className="bold-text">{t("experiences.sheraton")}</span></p></li>
+                                    <li class="read-more-target-academic-aducation"><p><span className="bold-text">{t("experiences.sheratonDate")}</span></p></li>
 
-
-                                    <li><p><span className="bold-text">Telecall - Estagiando</span></p></li>
-                                    <li class="read-more-target"><p><span className="bold-text">(04/2021 até hoje)</span></p></li>
+                                    <li><p><span className="bold-text">{t("experiences.telecall")}</span></p></li>
+                                    <li class="read-more-target-academic-aducation"><p><span className="bold-text">{t("experiences.telecallDate")}</span></p></li>
                                 </ul>
-
-                                <label for="post-2" class="read-more-trigger"></label>
+                                <label for="post-2" class="read-more-trigger-academic-aducation"></label>
                             </div>
-
-                            {/* <a href="#">Read More</a> */}
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="cards-experiences">
                     <div class="face face1">
                         <div class="content">
-                            <GiStarFormation />
+                            <SiMicrosoftacademic />
                             {/* <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true" /> */}
-                            <h3>{t("experiences.education")}</h3>
+                            <h3>{t("experiences.academicAducation")}</h3>
                         </div>
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            {/* <p>Instituto INFNET (https://www.infnet.edu.br/esti/)</p> */}
-
-                            <div className="modal-body-subcontent-details">
+                            <div className="modal-body-subcontent-details-profissional-history">
                                 <div>
-                                    <input type="checkbox" class="read-more-state" id="post-2" />
+                                    <input type="checkbox" class="read-more-state-profissional-history" id="post-23" />
 
-                                    <ul class="read-more-wrap">
-                                        <li><p><span className="bold-text">Hotel Marriott Parque Olímpico - Barman</span></p></li>
-                                        <li class="read-more-target"><p><span className="bold-text">(06/2016 até 11/2019)</span></p></li>
+                                    <ul class="read-more-wrap-profissional-history">
+                                        <li><p><span className="bold-text">{t("experiences.windsorSchool")}</span></p></li>
+                                        <li class="read-more-target-profissional-history"><p><span className="bold-text">{t("experiences.windsorSchoolDate")}</span></p></li>
 
-                                        <li><p><span className="bold-text">Instituto INFNET</span></p></li>
-                                        <li class="read-more-target"><p><span className="bold-text">(06/2016 até hoje)</span></p></li>
+                                        <li><p><span className="bold-text">{t("experiences.levelingCourses")}</span></p></li>
+                                        <li class="read-more-target-profissional-history"><p><span className="bold-text">{t("experiences.levelingCoursesDate")}</span></p></li>
+
+                                        <li><p><span className="bold-text">{t("experiences.infnet")}</span></p></li>
+                                        <li class="read-more-target-profissional-history"><p><span className="bold-text">{t("experiences.infnetDate")}</span></p></li>
                                     </ul>
 
-                                    <label for="post-2" class="read-more-trigger"></label>
+                                    <label for="post-23" class="read-more-trigger-profissional-history"></label>
                                 </div>
                             </div>
-
-                            {/* <a href="#">Read More</a> */}
                         </div>
                     </div>
                 </div>

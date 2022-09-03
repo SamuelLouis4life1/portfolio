@@ -91,7 +91,28 @@
             "btns": "Demann pwojè"
         },
         "services" : {
-            "description" : "deskripsyon services"
+            "title" : "Eksperyans",
+            "subTitle" : "Eksperyans",
+            "designer" : "Designer ak pwomotè entènèt",
+            "frontend" : "Devlope entèfas la",
+            "backend" : "Devlope backend la",
+            "barman" : "Swater/Barman",
+            "professionalHistory" : "ISTWA PWOFESYONÈL",
+            "academicAducation" : "FÒMASYON AKADEMIK",
+            "marriottHotel" : "Marriott Olympic Park Hotel - Bartender",
+            "marriottHotelDate" : "(06/2016 jiska 11/2019 - 11/2020 rive )",
+            "mundivox" : "MUNDIVOX - Estaj",
+            "mundivoxDate" : "(02/2020 jiska 04/2020)",
+            "sheraton" : "Sheraton Grand Rio/Marriott - Attendant",
+            "sheratonDate" : "11/2020 rive 03/2021",
+            "telecall" : "Telecall - Full Stack Developer",
+            "telecallDate" : "Jiska jodi a",
+            "windsorSchool" : "Lekòl Windsor - Bartender",
+            "windsorSchoolDate" : "2016",
+            "levelingCourses" : "Kou nivo enfòmatik - Udemy",
+            "levelingCoursesDate" : "Nan tan lib mwen an",
+            "computerEngineering" : "Lojisyèl/Engineering - Instituto INFNET",
+            "computerEngineeringDate" : "(07/2016 jiska jodi a)"
         },
         "portfolio" : {
             "title" : "Portfolio",

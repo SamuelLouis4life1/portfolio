@@ -77,7 +77,28 @@
             "machine" : "Apprentissage automatique"
         },
         "experiences" : {
-            "description" : "description experiences fr"
+            "title": "Expériences",
+            "subTitle": "Expériences",
+            "designer": "Concepteur et développeur Web",
+            "frontend": "Développement du frontend",
+            "backend": "Développement du backend",
+            "barman": "Serveur/Barman",
+            "Histoireprofessionnelle": "HISTOIRE PROFESSIONNELLE",
+            "academicAducation": "FORMATION ACADEMIQUE",
+            "marriottHotel": "Marriott Olympic Park Hotel - Barman",
+            "marriottHotelDate": "(06/2016 au 11/2019 - 11/2020 au )",
+            "mundivox": "MUNDIVOX - Stage",
+            "mundivoxDate": "(02/2020 au 04/2020)",
+            "sheraton": "Sheraton Grand Rio/Marriott - Préposé",
+            "sheratonDate": "11/2020 au 03/2021",
+            "telecall": "Telecall - Développeur Full Stack",
+            "telecallDate" : "Jusqu'à présent",
+            "windsorSchool": "Windsor School - Barman",
+            "windsorSchoolDate": "2016",
+            "levelingCourses": "Cours de mise à niveau informatique - Udemy",
+            "levelingCoursesDate": "Pendant mon temps libre",
+            "computerEngineering": "Génie Logiciel/Informatique - Instituto INFNET",
+            "computerEngineeringDate": "(07/2016 à aujourd'hui)"
         },
         "services" : {
             "description" : "description services fr",
