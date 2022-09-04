@@ -39,13 +39,13 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.fade-out-image {
+/* .fade-out-image {
     animation: fadeOut 3s;
     -webkit-animation: fadeOut 3s;
     -moz-animation: fadeOut 3s;
     -o-animation: fadeOut 3s;
     -ms-animation: fadeOut 3s;
-}
+} */
 
 @Keyframes fadeOut {
     0% {

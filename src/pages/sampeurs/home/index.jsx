@@ -3,9 +3,10 @@ import Footer from "../../../components/layouts/footer";
 import Nav from "../../../components/Nav";
 import { SampeursCarousel } from "../../../components/elements/textCarousel/index"
 import "./home.css"
-import back from "../../../images/sampeurs/back.png"
-import sampeurs1 from "../../../images/sampeurs/sampeurs1.png"
-import mens from "../../../images/sampeurs/mens.png"
+import Men from "../../../images/sampeurs/men.png"
+import Women from "../../../images/sampeurs/women.png"
+import MenPants from "../../../images/sampeurs/men_pants.png"
+import WomenPants from "../../../images/sampeurs/women_pants.png"
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Search from "../../../components/elements/searchBar/index";
@@ -59,19 +60,19 @@ export default function Sampeurs() {
         // showThumbs = "false"
         >
           <div>
-            <img src={mens} />
+            <img src={Men} />
             <p className="legend">Men's t-shirts</p>
           </div>
           <div>
-            <img src={back} />
+            <img src={Women} />
             <p className="legend">Women's t-shirts</p>
           </div>
           <div>
-            <img src={sampeurs1} />
+            <img src={WomenPants} />
             <p className="legend">Women Pant Collectons</p>
           </div>
           <div>
-            <img src={mens} />
+            <img src={MenPants} />
             <p className="legend">Men Pant Collectons</p>
           </div>
 
