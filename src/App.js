@@ -3,7 +3,7 @@ import './App.css';
 import React, { Suspense } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/homes/Home';
-import Sampeurs from './pages/sampeurs/Sampeurs';
+import Sampeurs from './pages/sampeurs/home/index';
 import NotFound from './pages/notFound/NotFound';
 
 function App() {
