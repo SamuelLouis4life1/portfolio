@@ -54,6 +54,26 @@
     https://codesandbox.io/s/react-typewriter-effect-rdis2
     https://bestofreactjs.com/repo/kevoese-react-typewriter-effect-react-ui-animation
 
+10) Github para Dataset 
+    https://github.com/nagualcode/crisp-dm-infnet/edit/main/README.md
+    https://github.com/rezazad68/BCDU-Net   cancer detection
+    https://github.com/topics/cancer-detection
+    https://www.youtube.com/watch?v=957fQCm5aDo
+    https://www.youtube.com/watch?v=7MceDfpnP8k
+    https://www.youtube.com/watch?v=NSSOyhJBmWY
+    https://github.com/gscdit/Breast-Cancer-Detection
+
+    
+11) Flip card
+    https://reactjsexample.com/react-flipping-card-with-tutorial/
+    https://reactjsexample.com/animated-product-card-with-the-help-of-react-and-scss/
+    https://reactjsexample.com/flipping-cards-for-your-react-projects/
+
+    https://stackoverflow.com/questions/66216183/how-to-map-data-into-cards-react-js
+    https://codesandbox.io/s/y3n12lmnnx?file=/src/data.js
+    https://codesandbox.io/s/pq9n3
+
+
 9)  Já ta pago
 
 

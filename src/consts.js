@@ -1,5 +1,5 @@
 export const Instagram = "https://www.instagram.com/";
-export const Facebook = "https://web.facebook.com";
+export const Facebook = "https://web.facebook.com/";
 export const Twitter = "https://twitter.com";
 export const GitHub = "https://github.com/";
 export const LinkedIn = "https://www.linkedin.com/";
@@ -9,8 +9,8 @@ export const Dribbble = "https://dribbble.com/session/new";
 
 export const UrlSocialMedia = {
     myInsta: Instagram + "samuel.louis1991",
-    User1Facebook: Facebook + "",
-    User1Twitter: Twitter + "/in/louis-samuel-544082110/",
+    User1Facebook: Facebook + "louis.samuel.7",
+    User1Twitter: Twitter + "/sampeurlouis",
     myGitHub: GitHub + "SamuelLouis4life1",
     myLinkedIn: LinkedIn + "in/louis-samuel-544082110/",
     User1Google: Google + "/in/louis-samuel-544082110/",
