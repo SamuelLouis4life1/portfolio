@@ -166,7 +166,7 @@
             "androidProject" : "Projeto em Android",
             "androidProjectDes" : "Projeto de um app de teremoto em Android usando linguagem Java.",
             "fronEndProject" : "Projeto de Front-end",
-            "fronEndProjectDes" : "Projeto de Front-end usando HTML, CSS, React e algumas bibliotecas como boostrap...",
+            "fronEndProjectDes" : "Projeto de Front-end usando HTML, CSS, React e bibliotecas como boostrap...",
             "prototypingProject" : "Projeto prototipagem",
             "prototypingProjectDes" : "Projeto prototipagem de um site e um aplicativo..."
 
@@ -188,16 +188,16 @@
         },
         "contact" : {
             "title" : "Contato",
-            "description" : "Descrição contato",
-            "description1" : "Vamos falar sobre o seu site. Envie-me uma mensagem e entrarei em contato com você em um dia útil.",
-            "description2" : "Vamos trabalhar para criar seu projeto do zero ou repará-lo, isso levará seu cérebro de sem graça a...",
+            "description" : "Vamos falar sobre o seu projeto",
+            "description1" : "Vamos falar sobre o seu projeto.\n Envie-me uma mensagem e entrarei em contato com você em um dia útil.",
+            "description2" : "Vamos falar sobre o seu projeto, eu posso criá-lo do zero ou renová-lo, que vai levar sua marca de brand a...",
             "description3" : "Estou disponível para trabalho autônomo. Conecte-se comigo por telefone: +552198772-2151 ou e-mail: sampeur4life1@gmail.com",
             "contactEmail" : "Envie uma mensagem",
             "contactWhatsapp" : "Envie uma mensagem no Whatsapp",
             "requiredMessenger" : "Envie uma mensagem no Messenger"
         },
         "contactForm" : {
-            "title" : "Entre em contato!",
+            "title" : "Pode também escolher um assunto específico",
             "selectedOption" : "-- Por favor, escolha uma opção --",
             "optionFeedback" : "Enviar um feedback",
             "optionResume": "Enviar currículo",
