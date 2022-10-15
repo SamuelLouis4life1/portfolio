@@ -2,7 +2,7 @@
 
 .portfolio-setion {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: var(--background-color);
   position: relative;
   padding: 30px;
@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-top: 6rem;
+  margin-top: 3rem;
   font-family: "Roboto", sans-serif;
   transition: 0.25s;
 }
@@ -29,38 +29,7 @@
   width: calc(100% - 60px);
   height: 400px;
 }
-@media screen and (max-width: 718px) {
-  .owl-carousel .options {
-    min-width: 520px;
-  }
-  .owl-carousel .options .option:nth-child(5) {
-    display: none;
-  }
-}
-@media screen and (max-width: 638px) {
-  .owl-carousel .options {
-    min-width: 440px;
-  }
-  .owl-carousel .options .option:nth-child(4) {
-    display: none;
-  }
-}
-@media screen and (max-width: 558px) {
-  .owl-carousel .options {
-    min-width: 360px;
-  }
-  .owl-carousel .options .option:nth-child(3) {
-    display: none;
-  }
-}
-@media screen and (max-width: 478px) {
-  .owl-carousel .options {
-    min-width: 280px;
-  }
-  .owl-carousel .options .option:nth-child(2) {
-    display: none;
-  }
-}
+
 .owl-carousel .options .option {
   position: relative;
   overflow: hidden;
@@ -73,46 +42,51 @@
 }
 
 .img1 {
-  background: url("../../../images/home_img.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/c_sharp.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img2 {
-background: url("../../../images/home_img2.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/prototype.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img3 {
-background: url("../../../images/home_img3.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/front_end.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img4 {
-background: url("../../../images/home_img4.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/android.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img5 {
-background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/internetofthings.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img6 {
-background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/go_lang.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .owl-carousel .options .option:nth-child(1) {
-  --defaultBackground:#ED5565;
+  --defaultBackground: rgb(211, 211, 211);
 }
+
 .owl-carousel .options .option:nth-child(2) {
-  --defaultBackground:#FC6E51;
+  --defaultBackground: rgb(211, 211, 211);
 }
+
 .owl-carousel .options .option:nth-child(3) {
-  --defaultBackground:#FFCE54;
+  --defaultBackground: rgb(211, 211, 211);
 }
+
 .owl-carousel .options .option:nth-child(4) {
-  --defaultBackground:#2ECC71;
+  --defaultBackground: #2ECC71;
 }
+
 .owl-carousel .options .option:nth-child(5) {
-  --defaultBackground:#5D9CEC;
+  --defaultBackground: #5D9CEC;
 }
+
 .owl-carousel .options .option:nth-child(6) {
-  --defaultBackground:#AC92EC;
+  --defaultBackground: rgb(211, 211, 211);
 }
 
 .owl-carousel .options .option.active {
@@ -127,30 +101,37 @@ background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9
 .owl-carousel .options .option.active .shadow {
   box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
 }
+
 .owl-carousel .options .option.active .label {
   bottom: 20px;
   left: 20px;
 }
-.owl-carousel .options .option.active .label .info > div {
+
+.owl-carousel .options .option.active .label .info>div {
   left: 0px;
   opacity: 1;
 }
+
 .owl-carousel .options .option:not(.active) {
   flex-grow: 1;
   border-radius: 30px;
 }
+
 .owl-carousel .options .option:not(.active) .shadow {
   bottom: -40px;
   box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
 }
+
 .owl-carousel .options .option:not(.active) .label {
   bottom: 10px;
   left: 10px;
 }
-.owl-carousel .options .option:not(.active) .label .info > div {
+
+.owl-carousel .options .option:not(.active) .label .info>div {
   left: 20px;
   opacity: 0;
 }
+
 .owl-carousel .options .option .shadow {
   position: absolute;
   bottom: 0px;
@@ -159,6 +140,7 @@ background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9
   height: 120px;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
+
 .owl-carousel .options .option .label {
   display: flex;
   position: absolute;
@@ -166,6 +148,7 @@ background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9
   height: 40px;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
+
 .owl-carousel .options .option .label .icon {
   display: flex;
   flex-direction: row;
@@ -178,6 +161,7 @@ background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9
   background-color: white;
   color: var(--defaultBackground);
 }
+
 .owl-carousel .options .option .label .info {
   display: flex;
   flex-direction: column;
@@ -186,14 +170,57 @@ background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9
   color: white;
   white-space: pre;
 }
-.owl-carousel .options .option .label .info > div {
+
+.owl-carousel .options .option .label .info>div {
   position: relative;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
 }
+
 .owl-carousel .options .option .label .info .main {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
 .owl-carousel .options .option .label .info .sub {
   transition-delay: 0.1s;
 }
+
+@media screen and (max-width: 718px) {
+  .owl-carousel .options {
+    min-width: 520px;
+  }
+
+  .owl-carousel .options .option:nth-child(5) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .owl-carousel .options {
+    min-width: 440px;
+  }
+
+  .owl-carousel .options .option:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .owl-carousel .options {
+    min-width: 360px;
+  }
+
+  .owl-carousel .options .option:nth-child(3) {
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 478px) {
+  .owl-carousel .options {
+    min-width: 280px;
+  }
+
+  .owl-carousel .options .option:nth-child(2) {
+    display: none;
+  }
+} */

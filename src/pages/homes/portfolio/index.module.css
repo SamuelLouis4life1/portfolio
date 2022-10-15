@@ -78,7 +78,9 @@
     display: none;
   }
 }
+
 @media screen and (max-width: 478px) {
+  
   .owlCarousel .options {
     min-width: 280px;
   }
@@ -98,27 +100,27 @@
 }
 
 .img1 {
-    background: url("../../../images/home_img.jpg"), var(--defaultBackground, #E6E9ED);
+    background: url("../../../images/c_sharp.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img2 {
-  background: url("../../../images/home_img2.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/prototype.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img3 {
-  background: url("../../../images/home_img3.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/front_end.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img4 {
-  background: url("../../../images/home_img4.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/android.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img5 {
-  background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/internetofthings.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .img6 {
-  background: url("../../../images/home_img5.jpg"), var(--defaultBackground, #E6E9ED);
+  background: url("../../../images/go_lang.png"), var(--defaultBackground, #E6E9ED);
 }
 
 .owlCarousel .options .option:nth-child(1) {
