@@ -161,7 +161,9 @@
             "requiredField" : "Required Field",
             "sumit" : "Sumit",
             "reset" : "Reset",
-            "sendEmail" : "Send an Email"
+            "sendEmail" : "Send an Email",
+            "success": "Form successfully submitted",
+            "error": "Error, when sending.\nTry again later"
         },
         "footer" : {
             "description" : " description footer"

@@ -7,7 +7,6 @@ import { withTranslation } from "react-i18next";
 
 export function Services(props) {
     const { t } = props;
-
     // const [btnExample, setbtnExample] = useState({`${t("services.subTitle")}`});
     // btnExample = {{t("services.title")}
 
@@ -28,11 +27,7 @@ export function Services(props) {
                 <Testimonial />
             </section>
         </>
-
     );
 }
 
 export default withTranslation()(Services);
-
-
-

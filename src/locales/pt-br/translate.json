@@ -216,7 +216,9 @@
             "requiredField" : "Campo obrigatório",
             "sumit" : "Sumit",
             "reset" : "Reset",
-            "sendEmail" : "Enviar um email"
+            "sendEmail" : "Enviar um email",
+            "success": "Formulário enviado com sucesso",
+            "error": "Error, ao enviar.\nTentar mais tarde"
         },
         "footer" : {
             "description" : "description rodapé"
