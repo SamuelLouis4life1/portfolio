@@ -31,9 +31,9 @@ export function Testes(props) {
       options={{
         "autoPlay": true,
         "background": {
-            "color": {
-                "value": "#0d47a1"
-            },
+            // "color": {
+            //     "value": "#0d47a1"
+            // },
             "image": "url('../../images/webdoor.png')",
             "position": "50% 50%",
             "repeat": "no-repeat",
@@ -52,8 +52,8 @@ export function Testes(props) {
         },
         "fullScreen": {
             "enable": true,
-            // "zIndex": 1
-        },
+            "zIndex": 0
+          },
         "detectRetina": true,
         "duration": 0,
         "fpsLimit": 120,
