@@ -1,7 +1,60 @@
+.experiences {
+    width: 100wh;
+    height: 100vh;
+    position: relative;
+    /* z-index: 1; */
+}
+
+
+.experiences .bgImg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background: url(../../images/webdoor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* body {
     margin-top: 10%;
    } */
-   .shadow-effect {
+   /* .shadow-effect {
         background: #fff;
         padding: 20px;
         border-radius: 4px;
@@ -73,4 +126,4 @@
                 transform-origin: 50% 50% 0;
         transition: all 250ms ease-out 0s;
         width: 20px;
-    }
+    } */
