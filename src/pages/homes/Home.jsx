@@ -26,7 +26,7 @@ export default function Home() {
                 <Spinner />
             ) : (
                 <>
-                    <Testes />
+                    {/* <Testes /> */}
                     <HomeIndex />
                     <About />
                     <Skills />
