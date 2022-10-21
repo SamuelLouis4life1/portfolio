@@ -5,7 +5,7 @@
   height: auto;
   background: var(--background-color);
   position: relative;
-  padding: 30px;
+  padding: 0.9rem 3rem 5rem;
 }
 
 .owl-carousel {
@@ -212,6 +212,12 @@
 
   .owl-carousel .options .option:nth-child(3) {
     display: none;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .portfolio-setion {
+    padding: 0.9rem 1rem 5rem;
   }
 }
 
