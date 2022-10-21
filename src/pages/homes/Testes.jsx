@@ -12,7 +12,6 @@ export function Testes(props) {
 
   const particlesInit = async (main) => {
     console.log(main);
-
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
@@ -24,9 +23,10 @@ export function Testes(props) {
     <section className="experiences" id='experiences'>
     <div className='bgImg'></div>
       <p>testes</p>
+
       <Particles
       id="tsparticles"
-      init={particlesInit}
+    //   init={particlesInit}
 
       options={{
         "autoPlay": true,
@@ -34,7 +34,7 @@ export function Testes(props) {
             // "color": {
             //     "value": "#0d47a1"
             // },
-            "image": "url('../../images/webdoor.png')",
+            "image": "url('../../images/home_img.jpg')",
             "position": "50% 50%",
             "repeat": "no-repeat",
             "size": "cover",
