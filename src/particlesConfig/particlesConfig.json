@@ -1,14 +1,10 @@
 {
     "autoPlay": true,
     "background": {
-        "color": {
-            "value": "#0d47a1"
-        },
-        "image": "url('../imgs/logo-removebg-preview.png')",
+        "image": "url('../../images/home_img.jpg')",
         "position": "50% 50%",
         "repeat": "no-repeat",
-        "size": "cover",
-        "opacity": 1
+        "size": "cover"
     },
     "backgroundMask": {
         "composite": "destination-out",
@@ -22,7 +18,7 @@
     },
     "fullScreen": {
         "enable": true,
-        "zIndex": 1
+        "zIndex": 0
     },
     "detectRetina": true,
     "duration": 0,

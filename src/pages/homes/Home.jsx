@@ -7,7 +7,7 @@ import Experiences from './experiences';
 import Services from './services';
 import Portfolio from "../../pages/homes/portfolio/index"
 import Contact from './contact'
-import Testes from "./Testes"
+import Testes from './Testes'
 import Footer from "../../components/layouts/footer/index"
 
 export default function Home() {
@@ -26,8 +26,8 @@ export default function Home() {
                 <Spinner />
             ) : (
                 <>
-                    <HomeIndex />
                     {/* <Testes /> */}
+                    <HomeIndex />
                     <About />
                     <Skills />
                     <Experiences />
