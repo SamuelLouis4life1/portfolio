@@ -46,8 +46,7 @@ export function Contact(props) {
 
   const { t } = props;
   return (
-    <body>
-
+    <>
       <section className={styles.contactSection} id="contact" >
         <h1 className={styles.title}>{t("contact.title")}</h1>
 
@@ -65,10 +64,8 @@ export function Contact(props) {
           </div>
 
         </div>
-
       </section>
-    </body>
-
+    </>
   );
 }
 export default withTranslation()(Contact);

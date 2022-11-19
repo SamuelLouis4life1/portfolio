@@ -29,7 +29,7 @@ export default function About(props) {
         <div className={styles.aboutContainer}>
 
           <div className={styles.aboutLeftContents}>
-            <div class={styles.aboutImg}></div>
+            <div className={styles.aboutImg}></div>
             <div>
 
               <p id="words" className={styles.aboutImgTitle}><AboutTypewriter /></p>

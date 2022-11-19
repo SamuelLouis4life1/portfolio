@@ -22,7 +22,7 @@ export function HomeIndex(props) {
 
     return (
         <header className={styles.home} id="home">
-            <div class={styles.bgImg}></div>
+            <div className={styles.bgImg}></div>
             <NavbarMenu />
             
             <Particles

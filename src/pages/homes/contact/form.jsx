@@ -70,7 +70,7 @@ export function ContactForm(props) {
                         <li>
                             <div className="grid grid-2">
                                 <input name="name" value={state.name} onChange={handleChange} type="text" placeholder={t("contactForm.placeholderName")} required />
-                                <input maxlength="15" name="document" value={state.document} onChange={handleChange} type="text" placeholder={t("contactForm.placeholderSurname")} required />
+                                <input maxLength="15" name="document" value={state.document} onChange={handleChange} type="text" placeholder={t("contactForm.placeholderSurname")} required />
                             </div>
                         </li>
                         <li>
@@ -91,7 +91,7 @@ export function ContactForm(props) {
                         </li>
                         <li>
                             <input name="termAcceptance" value={state.termAcceptance} onChange={handleChange} type="checkbox" id="terms" required />
-                            <label for="terms">
+                            <label htmlFor="terms">
                                 {t("contactForm.terms")}
                                 <Link to={"/termo"} target="_blank" rel="noopener noreferrer" className="footer-txt">{t("contactForm.conditions")}</Link>
                             </label>
@@ -109,11 +109,11 @@ export function ContactForm(props) {
                                     <span className="front">{t("contactForm.sumit")}</span>
                                 </button>
 
-                                <button class="btn-grid" type="reset" >
-                                    <span class="back">
+                                <button className="btn-grid" type="reset" >
+                                    <span className="back">
                                         <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="" />
                                     </span>
-                                    <span class="front">{t("contactForm.reset")}</span>
+                                    <span className="front">{t("contactForm.reset")}</span>
                                 </button>
                             </div>
                         </li>

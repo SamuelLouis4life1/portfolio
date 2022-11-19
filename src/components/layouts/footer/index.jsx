@@ -19,7 +19,7 @@ export function Footer() {
                 </div>
 
                 <div className={`${styles.footerRightReserve} ${styles.footerItems}`}>
-                    <p class="copyright-text">Copyright &copy; {date} All Rights Reserved by <a href="#">Samuel Louis Sampeur</a>.</p>
+                    <p className="copyright-text">Copyright &copy; {date} All Rights Reserved by <a href="#">Samuel Louis Sampeur</a>.</p>
                 </div>
 
                 <div className={`${styles.footerSocialMedia} ${styles.footerItems}`}>
