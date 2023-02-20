@@ -16,9 +16,9 @@ function AboutTypewriter () {
           <Typist avgTypingDelay={50} onTypingDone={() => setCount(0)}>
             <span>UI / UX design</span>
             <Typist.Backspace count={20} delay={5000} />
-            <span>Fullstack Developer</span>
+            <span>Fullstack Dev.</span>
             <Typist.Backspace count={20} delay={5000} />
-            <span>Web developper</span>
+            <span>Web Dev.</span>
             <Typist.Backspace count={20} delay={5000} />
           </Typist>
         ) : (

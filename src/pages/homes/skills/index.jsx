@@ -39,20 +39,24 @@ export function Skills(pros) {
     const [html, setHtml] = useState(80);
     const [css, setCss] = useState(90);
     const [javaScript, setJavaScript] = useState(80);
-    const [react, setReact] = useState(60);
-    const [csharp, setCsharp] = useState(60);
+    const [react, setReact] = useState(70);
+    const [csharp, setCsharp] = useState(70);
     const [goLang, setGoLang] = useState(60);
     const [java, setJava] = useState(40);
-    const [python, setPython] = useState(50);
-    const [sqlServer, setSqlServer] = useState(50);
-    const [figma, setFigma] = useState(30);
-    const [sketch, setSketch] = useState(30);
-    const [photoshop, setPhotoshop] = useState(50);
-    const [english, setEnglish] = useState(60);
+    const [python, setPython] = useState(60);
+    const [sqlServer, setSqlServer] = useState(70);
+    const [figma, setFigma] = useState(50);
+    const [sketch, setSketch] = useState(50);
+    const [photoshop, setPhotoshop] = useState(40);
+    const [english, setEnglish] = useState(70);
     const [spanish, setSpanish] = useState(40);
     const [french, setFrench] = useState(80);
     const [creol, setCreol] = useState(90);
     const [portugues, setPortugues] = useState(70);
+    const [dataScience, setDataScience] = useState(50);
+    const [internetOfThings, setInternetOfThings] = useState(50);
+    const [awsAzure, setAwsAzure] = useState(50);
+    const [iot, setIot] = useState(50);
 
     function openCity(evt, deviceName) {
         var i, tabcontent, tablinks;
@@ -185,7 +189,7 @@ export function Skills(pros) {
                                 </div>
                                 <div className="skills_titles">
                                     <p className="skills_name">{t("skills.internet")}</p>
-                                    <ProgressBar bgcolor={"var(--font-color)"} completed={csharp} />
+                                    <ProgressBar bgcolor={"var(--font-color)"} completed={dataScience} />
                                 </div>
 
                             </div>
@@ -197,7 +201,7 @@ export function Skills(pros) {
                                 </div>
                                 <div className="skills_titles">
                                     <p className="skills_name">{t("skills.data")}</p>
-                                    <ProgressBar bgcolor={"var(--font-color)"} completed={goLang} />
+                                    <ProgressBar bgcolor={"var(--font-color)"} completed={internetOfThings} />
                                 </div>
                             </div>
 
@@ -207,7 +211,7 @@ export function Skills(pros) {
                                 </div>
                                 <div className="skills_titles">
                                     <p className="skills_name">{t("skills.machine")}</p>
-                                    <ProgressBar bgcolor={"var(--font-color)"} completed={java} />
+                                    <ProgressBar bgcolor={"var(--font-color)"} completed={awsAzure} />
                                 </div>
                             </div>
 
@@ -217,7 +221,7 @@ export function Skills(pros) {
                                 </div>
                                 <div className="skills_titles">
                                     <p className="skills_name">Data Base</p>
-                                    <ProgressBar bgcolor={"var(--font-color)"} completed={python} />
+                                    <ProgressBar bgcolor={"var(--font-color)"} completed={iot} />
                                 </div>
                             </div>
                         </div>

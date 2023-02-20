@@ -70,7 +70,7 @@
   gap: 3rem;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 1rem;
   text-align: center;
 }
 
@@ -134,12 +134,12 @@
     max-width: 200px !important;
   }
 
-  .aboutBtns {
+  /* .aboutBtns {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     padding-top: 3rem;
     justify-content: center;
-  }
+  } */
 
 }
 

@@ -28,12 +28,12 @@
         "about" : {
             "title" : "Sobre mim",
             "subTitle" : "Um pouco sobre mim:",
-            "descriptionP1" : "Olá, sou Samuel Louis Sampeur, trabalhei como Garçom/Barman em ",
-            "descriptionP2" : "Além das funções de Bartender, fui frequentemente chamado para atender clientes estrangeiros, principalmente devido à minha facilidade com idiomas e comunicação com as pessoas. Após três anos e meio decidi mudar de profissão e iniciei uma estágio em uma empresa de telecomunicação ",
-            "descriptionP3" : "Aí depois vem a pandemia do COVID-19... Agora formado em engenharia de software e prestes a terminar engenharia da computação na ",
-            "descriptionP4" : "Atualmente estou trabalhando como desenvolvedor foolstack em uma empresa de telecomunicações, ",
-            "descriptionP5" : "Faço trabalho de freelance. Também tenho especialização em web design, design de aplicativos, para poder projetar e construir seu site do zero. Tenho certeza de que você não se arrependerá se quiser trabalhar juntos em seu próximo projeto ou projeto existente, você pode ",
-            "descriptionP6" : "Sou extrovertido, dedicado e de mente aberta. Me relaciono com as pessoas e me adapto às mudanças com facilidade. Acredito que uma pessoa deve trabalhar para desenvolver suas habilidades profissionais e aprender coisas novas o tempo todo. ",
+            "descriptionP1" : "Eu sou Samuel Louis. Anteriormente, trabalhei no ",
+            "descriptionP2" : " como Garçom/Bartender, onde não apenas cumpria as responsabilidades de bartender, mas também prestava assistência a clientes estrangeiros devido à minha proficiência em vários idiomas e habilidades de comunicação. Depois de três anos e meio, decidi seguir uma carreira diferente e comecei um estágio na ",
+            "descriptionP3" : " Porém, com o início da pandemia de COVID-19, meus planos tomaram outro rumo. Atualmente, concluí meus estudos em engenharia de software e estou nos estágios finais de engenharia da computação na ",
+            "descriptionP4" : " Atualmente trabalho como desenvolvedor full-stack na ",
+            "descriptionP5" : " Além da minha função atual, tenho experiência em web design e design de aplicativos através do meu envolvimento em vários projetos pessoais e sociais. Também tenho trabalhado em projetos de larga escala novos e existentes, utilizando tecnologias como React.js, ASP.NET MVC, .NET CORE e WEBAPI'S com Entity Framework, enquanto aderi aos padrões de arquitetura DDD e TDD. Assim, sou capaz de projetar e construir sites do zero. Se você estiver interessado em colaborar em um projeto, seja novo ou existente, não hesite em entrar em contato comigo. Estou confiante de que você não ficará desapontado, ",
+            "descriptionP6" : " Acredito em aprimorar constantemente minhas habilidades profissionais e estar atualizado com os novos desenvolvimentos na área. Para saber mais sobre mim, ",
             "moreAboutme": "Descubra mais sobre me ",
             "showMore": "Show more",
 
@@ -54,15 +54,15 @@
             "bigText5" : "Sou co-financiador de ",
             "aboutMeBtn" : "Let's Talk",
             "aboutMeCv" : "Baixar CV",
-            "aboutBtnCv" : "Será baixado no seu idoma",
+            "aboutBtnCv" : " Em Português",
             "contactBtn" : "Me Contacta",
-            "college" : "INFNET, Rio de Janeiro ",
+            "college" : "INFNET, Rio de Janeiro.",
             "aboutMeCity" : "Rio de Janeiro",
             "sampeurs" : "SAMPEUR'S",
             "contact" : "Me Contacta.",
-            "mundivox" : "MUNDIVOX. ",
+            "mundivox" : "MUNDIVOX, uma empresa de telecomunicações. ",
             "marriott" : "Marriott Hotel ",
-            "telecall" : "Telecall. "
+            "telecall" : "Telecall, uma empresa de telecomunicações. "
 
         },
         "skills" : {

@@ -28,12 +28,12 @@
         "about" : {
             "title" : "About me",
             "subTitle" : "A little about myself:",
-            "descriptionP1" : "Hi, I am Samuel Louis Sampeur, I worked as a Waiter/Bartender at ",
-            "descriptionP2" : "In addition to Bartending duties, I was frequently called upon to serve foreign customers, mainly due to my facility with languages and communicating with people. After three years and a half I decided to change my occupation so I started an IT internship at a telecommunications company",
-            "descriptionP3" : "then come the COVID-19 pandemic ... Now graduated as a software engineering and about to finish at computer engineering at ",
-            "descriptionP4" : "I'm working as a foolstack developer in a telecomunication company. ",
-            "descriptionP5" : "I am looking for freelance job. I also have specialization in web design, app design, so I can design and build your website from scratch. I'm certain that you won't regret if you'd like to work together on your next or existing project, you can ",
-            "descriptionP6" : "I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time ",
+            "descriptionP1" : "I am Samuel Louis. Previously, I worked at ",
+            "descriptionP2" : " as a Waiter/Bartender where I not only fulfilled bartending responsibilities, but also provided assistance to foreign clients due to my proficiency in various languages and communication skills. After three and a half years, I decided to pursue a different career path and began an internship at ",
+            "descriptionP3" : "However, with the onset of the COVID-19 pandemic, my plans took a different turn. Presently, I have completed my studies in software engineering and am in the final stages of my computer engineering program at ",
+            "descriptionP4" : "I am currently working as a full-stack developer at ",
+            "descriptionP5" : " In addition to my current role, I have experience in web design and application design through my involvement in various personal and social projects. I have also been working on both new and existing large-scale projects, utilizing technologies such as React.js, ASP.NET MVC, .NET CORE, and WEBAPI'S with Entity Framework, while adhering to the DDD and TDD architectural patterns. Thus, I am capable of designing and constructing websites from scratch. If you are interested in collaborating on a project, whether new or existing, please do not hesitate to reach out to me. I am confident that you will not be disappointed, ",
+            "descriptionP6" : "I believe in constantly honing my professional skills and staying up-to-date with new developments in the field. To learn more about me, ",
             
             "descriptionP7" : "I'm passionate in playing chess, ",
             "subTitle2" : "What I do on my free time: ",
@@ -49,14 +49,15 @@
             "bigText5" : "I'm the cofunder of ",
             "aboutMeBtn" : "Let's Talk",
             "aboutMeCv" : "Download CV",
-            "aboutBtnCv" : "It will be downloaded in your language",
+            "aboutBtnCv" : " In English",
             "contactBtn" : "Let's Talk",
             "college" : "INFNET, Rio de Janeiro ",
             "aboutMeCity" : "Rio de Janeiro",
             "sampeurs" : "SAMPEUR'S",
             "contact" : "Cantact me",
-            "mundivox" : "MUNDIVOX ",
-            "marriott" : "Marriott Hotel "
+            "mundivox" : "MUNDIVOX, a telecommunications company. ",
+            "marriott" : "Marriott Hotel ",
+            "telecall": "Telecall, a telecommunications company. "
         },
         "skills" : {
             "title" : "Skills",
