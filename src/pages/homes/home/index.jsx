@@ -9,6 +9,7 @@ import NavbarMenu from "../../../components/Nav";
 import styles from "./index.module.css";
 import particlesConfig from "../../../particlesConfig/particlesConfig.json"
 
+
 export function HomeIndex(props) {
     const { t } = props;
 
@@ -24,7 +25,7 @@ export function HomeIndex(props) {
         <header className={styles.home} id="home">
             <div className={styles.bgImg}></div>
             <NavbarMenu />
-            
+
             <Particles
                 id="tsparticles"
                 init={particlesInit}
@@ -32,13 +33,24 @@ export function HomeIndex(props) {
             />
 
             <div className={styles.homeDescription}>
-
-                <h4>{t("home.hi")}</h4>
-                <h1>{t("home.name")}</h1>
-                <h5>Fullstack Developer</h5>
+                <h1 className={styles.home_responsibility}>{t("home.hi")}</h1>
+                <h2 className={styles.home_name}>{t("home.name")}</h2>
+                <h3>Fullstack Developer</h3>
                 <p>{t("home.belief")}<a href="#" className="">{t("home.YESHUA")}</a></p>
 
                 <SocialMidiaIcons />
+            </div>
+
+            <div>
+                <a href="#about" className={styles.scroll_down}>
+                    <div className={styles.mouse}>
+                        <span></span>
+                    </div>
+                    <div className={styles.arrow}>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
             </div>
         </header>
     )

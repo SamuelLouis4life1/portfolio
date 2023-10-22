@@ -16,7 +16,7 @@
         },
         "home" : {
             "hi" : "Olá, Yo soy",
-            "name" : "Samuel Louis Sampeur",
+            "name" : "Samuel Louis",
             "belief" : "Creio em ",
             "YESHUA": "YESHUA",
             "bibleVerse" : "bible verse",
@@ -28,7 +28,7 @@
         "about" : {
             "title": "Acerca de mí",
             "subTitle" : "Un poco sobre mí:",
-            "descriptionP1" : "Hola, soy Samuel Louis Sampeur, trabajé como mesero/cantinero en ",
+            "descriptionP1" : "Hola, soy Samuel Louis, trabajé como mesero/cantinero en ",
             "descriptionP2": "Además de las tareas de barman, me llamaban con frecuencia para atender a clientes extranjeros, principalmente debido a mi facilidad con los idiomas y la comunicación con la gente. Después de tres años y medio, decidí cambiar mi ocupación, así que comencé una TI prácticas en una empresa de telecomunicaciones",
             "descriptionP3" : "luego viene la pandemia de COVID-19... Ahora se graduó como ingeniero de software y está a punto de terminar en ingeniería informática en ",
             "descriptionP4": "Estoy trabajando como desarrollador tonto en una empresa de telecomunicacione.",

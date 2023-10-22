@@ -2,7 +2,6 @@
     width: 100wh;
     height: 100vh;
     position: relative;
-    /* z-index: 1; */
 }
 
 .home .bgImg {
@@ -10,14 +9,14 @@
     height: 100vh;
     position: absolute;
     z-index: -1;
-    opacity: .4;    
+    opacity: .4;
     background: url(../../../images/home_img3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.homeDescription {
+.home_description {
     font-size: 18px;
     text-align: left;
     color: var(--font-color-light);
@@ -28,81 +27,103 @@
     left: 120px;
 }
 
-.video_buttom {
-    /* background: transparent url(../imgs/logo-removebg-preview.png) 0 0 no-repeat; */
-    right: 0;
-    position: absolute;
-    bottom: 45px;
-    z-index: 3;
-    background-size: cover;
+.home_name {
+    font-size: 4rem;
+    margin: 0px;
 }
 
-.video_buttom a {
-    display: block;
-    width: 220px;
-    height: 147px;
-    position: relative;
-    border: #0ead59;
-}
-
-.video_buttom a span {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-    color: var(--font-color-light);
-    background-color: var(--font-color-light);
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    padding-top: 8px;
-    border-radius: 50px;
-}
-
-.video_buttom a span:before {
-    content: "";
-    background: #f9b03e;
-    position: absolute;
-    top: -0.625em;
-    left: -0.625em;
-    right: 50%;
-    bottom: -0.625em;
-    z-index: -1;
-    opacity: 0.5;
-    border-radius: 5em 0 0 5em;
-    transition: all 0.7 ease;
-}
-
-.video_buttom a:hover > .video_buttom a span:before,
-.video_buttom a span:hover:before{
-    right: -0.625em;
-    transform: rotate(240deg);
-    border-radius: 5em;
-}
-
-.homeSocial {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    position: absolute;
-    z-index: 90;
-}
-
-.homeSocial svg {
-    color: var(--font-color-light) !important;
+.home_responsibility {
+    font-size: larger;
+    margin: 1rem 0;
 }
 
 @media only screen and (max-width: 740px) and (max-width: 1024px) {
-    .homeDescription {
+    .home_description {
         font-size: 15px;
         left: 20px;
     }
 }
 
-@media only screen and (max-width: 740px) and (orientation: landscape ) {
-    .homeDescription {
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+    .home_description {
         left: 60px;
         top: 30%;
         font-size: 0.7rem;
+    }
+}
+
+/* =============================== scroll down ===================== */
+.scroll_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouse {
+    display: flex;
+    width: 1rem;
+    height: 3rem;
+    background-color: var(--font-color-light);
+    border: 2px solid var(--font-color-light);
+    border-radius: 2rem;
+    margin-bottom: 0.1rem;
+}
+
+.mouse span {
+    display: block;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--background-color);
+    border-radius: 2rem;
+    margin: auto;
+    animation: move-wheel 1s linear infinite;
+}
+
+.arrow span {
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 3px solid transparent;
+    border-right-color: var(--font-color-light);
+    border-bottom-color: var(--font-color-light);
+    transform: rotate(45deg);
+    animation: arrow-down 1s linear infinite;
+}
+
+@keyframes move-wheel {
+    0% {
+        opacity: 0.75;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+}
+
+@keyframes arrow-down {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
     }
 }

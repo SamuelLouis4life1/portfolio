@@ -16,7 +16,7 @@
         },
         "home" : {
             "hi" : "Salut, Je suis",
-            "name" : "Louis Samuel Sampeur",
+            "name" : "Louis Samuel",
             "belief" : "Je crois en ",
             "YESHUA": "YESHUA",
             "bibleVerse" : "Verset Biblique",
@@ -28,7 +28,7 @@
         "about" : {
             "title" : "À propos de moi",
             "subTitle" : "Un peu sur moi :",
-            "descriptionP1" : "Bonjour, je suis Samuel Louis Sampeur, j'ai travaillé comme Serveur/Barman chez ",
+            "descriptionP1" : "Bonjour, je suis Samuel Louis, j'ai travaillé comme Serveur/Barman chez ",
             "descriptionP2" : "En plus de mes fonctions de Barman, j'étais fréquemment appelé à servir des clients étrangers, principalement en raison de ma facilité avec les langues et la communication avec les gens. Au bout de trois ans et demi, j'ai décidé de changer de métier, j'ai donc commencé un IT stage dans une entreprise de télécommunication ",
             "descriptionP3" : "puis vient la pandémie de COVID-19 ... Maintenant diplômé en génie logiciel et sur le point de terminer en génie informatique à ",
             "descriptionP4" : "Je travaille en tant que développeur fullstack dans une entreprise de télécommunication. ",
