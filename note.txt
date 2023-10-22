@@ -75,6 +75,24 @@
 
 
 9)  Já ta pago samuel.louis31@yahoo.fr
+    https://freefrontend.com/css-toggle-menus/
+    https://codesandbox.io/s/30ol8kqj9q?file=/src/components/Header.js
+    https://devooti.com/create-a-responsive-navbar-using-reactjs/
+    https://codesandbox.io/s/zl6wlk253?file=/src/HiddenBox.js
+    https://codesandbox.io/s/rxkoz?file=/src/App.js:350-419
+    https://codesandbox.io/s/vyx6zjkmy3?file=/src/components/Panel.js
+
+    
+    
+    
+10) https://www.npmjs.com/package/react-multi-carousel
+    https://www.newline.co/@andreeamaco/how-to-use-react-onclick-events-in-class-and-functional-components--fb63a01e
+    https://www.moritz-petersen.de/en#projects
+
+11) Modal
+    https://react.school/ui/modal
+
+https://webflow.com/blog/design-portfolio-examples
 
 
 

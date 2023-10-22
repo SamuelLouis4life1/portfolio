@@ -2,3 +2,15 @@
     color: aliceblue !important;
     transition: 0.3s ease-in-out;
 }
+
+.vavbar-dashboard {
+    left: 1rem;
+    position: fixed;
+    bottom: 3%;
+    background-color: var(--background-color-light);
+    padding: 0.7rem;
+}
+
+.vavbar-dashboard>svg {
+    font-size: 2rem !important;
+}

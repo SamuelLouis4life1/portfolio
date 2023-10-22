@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/nav.css";
 import "../styles/flag-icons.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 import { BrowserRouter as Link } from "react-router-dom";
 import DarkMode from "./darkMode";
-import { FaBitbucket, FaCog, FaHome } from "react-icons/fa";
 import imgLogo from "../images/logo.png"
 import { MdWork, MdDesignServices, MdContactMail } from "react-icons/md";
+import { FaBitbucket, FaCog, FaHome } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
+import NavbarDashboard from "../components/navbarmenuItems/NavbarDashboard";
 
 class NavbarMenu extends React.Component {
   state = {
@@ -69,16 +70,24 @@ class NavbarMenu extends React.Component {
               />
             </a>
           </Navbar.Brand>
+          <div>
+            {window.screen.width >= 420 ? (
+              <Nav className="me-auto small-device-bottom onHover">
+                <a href="/" className="menuItem hide-small-screen"> <FaHome /> <span className="link-text"><p>{t("navbarMenu.home")}</p></span></a>
+                <a href="#about" className="menuItem"> <FaCog /> <span className="link-text"><p>{t("navbarMenu.about")}</p></span></a>
+                <a href="#skills" className="menuItem"> <GiSkills /> <span className="link-text"><p>{t("navbarMenu.skills")}</p></span></a>
+                <a href="#experiences" className="menuItem"> <FaBitbucket /> <span className="link-text"><p>{t("navbarMenu.experiences")}</p></span></a>
+                <a href="#services" className="menuItem"> <MdWork /> <span className="link-text"><p>{t("navbarMenu.services")}</p></span></a>
+                <a href="#portfolio" className="menuItem"> <MdDesignServices /> <span className="link-text"><p>{t("navbarMenu.portfolio")}</p></span></a>
+                <a href="#contact" className="menuItem"> <MdContactMail /> <span className="link-text"><p>{t("navbarMenu.contact")}</p></span></a>
+              </Nav>
+            ) : (
+              <>
+                <NavbarDashboard onClick={this.handleClick} />
+              </>
 
-          <Nav className="me-auto small-device-bottom onHover">
-            <a href="/" className="menuItem hide-small-screen"> <FaHome /> <span className="link-text"><p>{t("navbarMenu.home")}</p></span></a>
-            <a href="#about" className="menuItem"> <FaCog /> <span className="link-text"><p>{t("navbarMenu.about")}</p></span></a>
-            <a href="#skills" className="menuItem"> <GiSkills /> <span className="link-text"><p>{t("navbarMenu.skills")}</p></span></a>
-            <a href="#experiences" className="menuItem"> <FaBitbucket /> <span className="link-text"><p>{t("navbarMenu.experiences")}</p></span></a>
-            <a href="#services" className="menuItem"> <MdWork /> <span className="link-text"><p>{t("navbarMenu.services")}</p></span></a>
-            <a href="#portfolio" className="menuItem"> <MdDesignServices /> <span className="link-text"><p>{t("navbarMenu.portfolio")}</p></span></a>
-            <a href="#contact" className="menuItem"> <MdContactMail /> <span className="link-text"><p>{t("navbarMenu.contact")}</p></span></a>
-          </Nav>
+            )}
+          </div>
 
           <div className="lang-toggle-theme">
             <Nav className="small-device">
@@ -129,7 +138,7 @@ class NavbarMenu extends React.Component {
               </NavDropdown>
             </Nav>
 
-              <DarkMode className="small-device" />
+            <DarkMode className="small-device" />
           </div>
         </Navbar>
       </>
