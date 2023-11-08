@@ -3,7 +3,7 @@ import { BsFillMenuButtonWideFill } from 'react-icons/bs';
 import { MdWork, MdDesignServices, MdContactMail } from "react-icons/md";
 import { FaBitbucket, FaCog } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
-import "../../components/navbarmenuItems/navbarMeneuItems.css"
+import "./navbarMediaQuery.css"
 import { withTranslation } from "react-i18next";
 
 class MenuComponent extends Component {

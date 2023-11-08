@@ -9,7 +9,7 @@ import imgLogo from "../images/logo.png"
 import { MdWork, MdDesignServices, MdContactMail } from "react-icons/md";
 import { FaBitbucket, FaCog, FaHome } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
-import NavbarDashboard from "../components/navbarmenuItems/NavbarDashboard";
+import NavbarDashboard from "./navbarMediaQuery/NavbarMediaQuery";
 
 class NavbarMenu extends React.Component {
   state = {
