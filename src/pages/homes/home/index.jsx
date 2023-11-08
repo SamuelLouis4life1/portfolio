@@ -35,7 +35,7 @@ export function HomeIndex(props) {
             <div className={styles.home_description}>
                 <h1 className={styles.home_responsibility}>{t("home.hi")}</h1>
                 <h2 className={styles.home_name}>{t("home.name")}</h2>
-                <h3>Fullstack Developer</h3>
+                <h3>Full stack Developer</h3>
                 <p>{t("home.belief")}<a href="#" className="">{t("home.YESHUA")}</a></p>
 
                 <SocialMidiaIcons />

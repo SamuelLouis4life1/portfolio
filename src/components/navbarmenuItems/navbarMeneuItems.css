@@ -14,3 +14,19 @@
 .vavbar-dashboard>svg {
     font-size: 2rem !important;
 }
+
+.media-query-menu-itens {
+    opacity: 0.9;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    background-color: var(--background-color-light);
+    padding: 1rem;
+    z-index: 1;
+    display: grid;
+    gap: 0.5rem 4rem;
+    height: 17%;
+    left: 0px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
