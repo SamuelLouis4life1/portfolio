@@ -9,6 +9,7 @@ import Portfolio from "../../pages/homes/portfolio/index"
 import Contact from './contact'
 import Testes from './Testes'
 import Footer from "../../components/layouts/footer/index"
+import ScrollToTopButton from "../../components/elements/scrollTop/ScrollToTopButton.jsx"
 
 export default function Home() {
     const [loading, setLoading] = useState(false);
@@ -35,7 +36,7 @@ export default function Home() {
                     <Portfolio />
                     <Contact />
                     <Footer />
-                    {/* <BackToTopButton /> */}
+                    <ScrollToTopButton />
                 </>
             )}
         </>
