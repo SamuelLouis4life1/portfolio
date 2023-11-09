@@ -31,6 +31,13 @@
 
 7)  animated scroll
     https://oieduardorabelo.medium.com/anima%C3%A7%C3%B5es-de-scroll-em-react-521cc44e9d59
+    https://codesandbox.io/s/h1rrv?file=/src/App.tsx
+    https://www.framer.com/motion/examples/
+    https://www.youtube.com/watch?v=deg8bOoziaE
+    Best: https://www.framer.com/motion/ 
+    https://www.react-spring.dev/
+    https://dev.to/arafat4693/best-animation-libraries-for-react-156n#1-react-spring
+    https://www.framer.com/motion/examples/
 
 8)  Cards
     https://codepen.io/codingtuting/pen/XWrBgQz
@@ -53,6 +60,7 @@
     https://www.npmjs.com/package/typewriter-effect
     https://codesandbox.io/s/react-typewriter-effect-rdis2
     https://bestofreactjs.com/repo/kevoese-react-typewriter-effect-react-ui-animation
+    https://www.npmjs.com/package/typewriter-effect
 
 10) Github para Dataset 
     https://github.com/nagualcode/crisp-dm-infnet/edit/main/README.md
@@ -91,6 +99,8 @@
 
 11) Modal
     https://react.school/ui/modal
+
+12) 
 
 https://webflow.com/blog/design-portfolio-examples
 

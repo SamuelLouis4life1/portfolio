@@ -8,6 +8,7 @@ import backend from '../../../images/backend.png';
 import webDesign from '../../../images/Phrase.png';
 import newSkill from '../../../images/new-skill.png';
 import languages from '../../../images/languages.png';
+import TextCarousel from '../../../components/elements/carousel/TextCarousel'
 import {
     GiMaterialsScience,
     GiVendingMachine
@@ -400,6 +401,7 @@ export function Skills(pros) {
                 </div>
             </div>
 
+            <TextCarousel />
         </section>
     );
 }
