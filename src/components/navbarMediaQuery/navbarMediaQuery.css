@@ -16,11 +16,10 @@
 }
 
 .media-query-menu-itens {
-    opacity: 0.9;
     width: 100%;
     position: fixed;
     bottom: 0%;
-    background-color: var(--background-color-light);
+    background-color: var(--font-color-light);
     padding: 1rem;
     z-index: 1;
     display: grid;
@@ -29,4 +28,8 @@
     left: 0px;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.media-query-menu-itens>a {
+    color: var(--background-color);
 }

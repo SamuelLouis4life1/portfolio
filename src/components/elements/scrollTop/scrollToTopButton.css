@@ -1,15 +1,18 @@
-.scrollToTopButton {
-    background: white !important;
-    border: 1px solid white !important;
+.scroll-to-top-button {
+    background: white;
+    border: 1px solid white;
     border-radius: 50%;
+    color: #30302f;
+    font-size: 3rem;
 }
 
-.buttonPosition{
+.button-position {
     position: fixed;
-    bottom: 1rem !important;
-    right: 0.45rem !important;
+    bottom: 1.5rem;
+    right: 0.45rem;
 }
 
-.fWohKN{
-    padding: 0 !important;
+.fWohKN {
+    padding: 0;
+    z-index: 99 !important;
 }

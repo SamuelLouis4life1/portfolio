@@ -8,13 +8,13 @@ export default class ScrollToTopButton extends Component {
         return (
             <BackToTop
                 showOnScrollDown
-                className='buttonPosition widthButtom'
+                className='button-position widthButtom'
                 showAt={100}
                 speed={1000}
                 easing="easeInOutQuint"
                 style={{zIndex: '9999'}}
             >
-                <BsFillArrowUpCircleFill className='scrollToTopButton buttonPosition' color="#26AAE2" size={63} />
+                <BsFillArrowUpCircleFill className='scroll-to-top-button button-position' />
             </BackToTop>
         );
     }
